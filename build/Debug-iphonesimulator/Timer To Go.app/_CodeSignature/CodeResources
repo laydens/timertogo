@@ -12,6 +12,30 @@
 		<data>
 		+aZVxK7oaFwtYTH97nb4AOyffjU=
 		</data>
+		<key>AppIcon29x29@2x.png</key>
+		<data>
+		3wuctdExSIrhOXvnatBQjznB44o=
+		</data>
+		<key>AppIcon29x29@3x.png</key>
+		<data>
+		hnBACs/yqdWX8c6syby/akrt8LE=
+		</data>
+		<key>AppIcon40x40@2x.png</key>
+		<data>
+		gSCzEuSt/GUOZ5TJzs+WFzRCNBw=
+		</data>
+		<key>AppIcon40x40@3x.png</key>
+		<data>
+		WHQiq5ijUpPkTRSvXVZc1Ni0bIg=
+		</data>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		yfMGnzMDp74SkH8IInBZT752gH0=
+		</data>
+		<key>AppIcon60x60@3x.png</key>
+		<data>
+		OWcgzPxaHEF3dgE4oHrL96Ff/ls=
+		</data>
 		<key>Apple LiGothic Medium.ttf</key>
 		<data>
 		T9ojx9fnWNp+A7DhPPkuuBG+o0k=
@@ -56,25 +80,9 @@
 		<data>
 		8ElBRCufoEPSlw9Hoyglt175t40=
 		</data>
-		<key>Icon-Small.png</key>
-		<data>
-		Og+5lufF+afBya9MjtHYh+SA58A=
-		</data>
-		<key>Icon-Small@2x.png</key>
-		<data>
-		D4Qke9s6BCq7GA5H5rHAUIsIdDU=
-		</data>
-		<key>Icon.png</key>
-		<data>
-		5P/CWPiTfzNHX+txDgRORYRC2uE=
-		</data>
-		<key>Icon@2x.png</key>
-		<data>
-		rauC4qz2npQGTXDn8DrFXvaUquE=
-		</data>
 		<key>Info.plist</key>
 		<data>
-		IuNIAwB1SQQWZdiLKRLRISyDLS4=
+		oX/FqMmA2tS5LgngFURjesF55B8=
 		</data>
 		<key>Pause.png</key>
 		<data>
@@ -311,6 +319,72 @@
 			q5kTV6Y9UynzgC7dPvhdy2uuMlZMGLvKIAZ7Pj1tUSs=
 			</data>
 		</dict>
+		<key>AppIcon29x29@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3wuctdExSIrhOXvnatBQjznB44o=
+			</data>
+			<key>hash2</key>
+			<data>
+			fh9naEuBKEkAnq7eRQ0ujp4HBwVBjoQPbaHjql+DzUI=
+			</data>
+		</dict>
+		<key>AppIcon29x29@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hnBACs/yqdWX8c6syby/akrt8LE=
+			</data>
+			<key>hash2</key>
+			<data>
+			/EIhLODMboT8fjNjto8oCff7H2t/p+4dteaP9/2AeIg=
+			</data>
+		</dict>
+		<key>AppIcon40x40@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gSCzEuSt/GUOZ5TJzs+WFzRCNBw=
+			</data>
+			<key>hash2</key>
+			<data>
+			9ijDmg8o7iLdpa3pe9Ba3WRGnXo6Q9MkRHpWkuXyIF4=
+			</data>
+		</dict>
+		<key>AppIcon40x40@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WHQiq5ijUpPkTRSvXVZc1Ni0bIg=
+			</data>
+			<key>hash2</key>
+			<data>
+			wW9O/iwEQnt1B2/m+UHmQEOZ3oNkNGPfOXlsB9lKsv8=
+			</data>
+		</dict>
+		<key>AppIcon60x60@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			yfMGnzMDp74SkH8IInBZT752gH0=
+			</data>
+			<key>hash2</key>
+			<data>
+			xSemHhm4+PtE54gvKMU0IHwuo8SwrVz2EBDmzoGhYWQ=
+			</data>
+		</dict>
+		<key>AppIcon60x60@3x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OWcgzPxaHEF3dgE4oHrL96Ff/ls=
+			</data>
+			<key>hash2</key>
+			<data>
+			WeWlmQ+hJTselEAGJOsxI+0hzXSaIy/8Ttm1td97uFE=
+			</data>
+		</dict>
 		<key>Apple LiGothic Medium.ttf</key>
 		<dict>
 			<key>hash</key>
@@ -430,50 +504,6 @@
 			<key>hash2</key>
 			<data>
 			f3d4GUw2fKdhAPFGVSAZZGPKZwIl9xf3zRVxAeQhnBM=
-			</data>
-		</dict>
-		<key>Icon-Small.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Og+5lufF+afBya9MjtHYh+SA58A=
-			</data>
-			<key>hash2</key>
-			<data>
-			NIkOlm2c4Lddas4Q8ri5lV7dapz5D/09UmmcV61aVo0=
-			</data>
-		</dict>
-		<key>Icon-Small@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			D4Qke9s6BCq7GA5H5rHAUIsIdDU=
-			</data>
-			<key>hash2</key>
-			<data>
-			SyKyBVzo3lmxTKLrGbdXjEq04m0ynB7Az6q4sSi6O+8=
-			</data>
-		</dict>
-		<key>Icon.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			5P/CWPiTfzNHX+txDgRORYRC2uE=
-			</data>
-			<key>hash2</key>
-			<data>
-			rFjvHfB2cTewvcCurBFZ2Lri7HySa4CwtsqkHKQqVNo=
-			</data>
-		</dict>
-		<key>Icon@2x.png</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			rauC4qz2npQGTXDn8DrFXvaUquE=
-			</data>
-			<key>hash2</key>
-			<data>
-			Zg0OyrkYDrMnzMUIFct4NHeSEEBSLFa9acpENKv5sMc=
 			</data>
 		</dict>
 		<key>Pause.png</key>
