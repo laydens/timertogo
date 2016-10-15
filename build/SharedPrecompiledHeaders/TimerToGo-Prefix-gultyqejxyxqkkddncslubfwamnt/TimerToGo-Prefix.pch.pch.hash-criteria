@@ -1,0 +1,37 @@
+-x
+objective-c
+-arch
+i386
+-std=gnu99
+-fobjc-arc
+-fpascal-strings
+-O0
+-DFULL_VERSION
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.0.sdk
+-fasm-blocks
+-mios-simulator-version-min=5.0
+-fobjc-abi-version=2
+-fobjc-legacy-dispatch
+-objcmt-migrate-readwrite-property
+-objcmt-migrate-readonly-property
+-objcmt-migrate-annotation
+-objcmt-migrate-instancetype
+-objcmt-migrate-ns-macros
+-objcmt-ns-nonatomic-iosonly
+-objcmt-white-list-dir-path=/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/Headers
+-objcmt-migrate-literals
+-Qunused-arguments
+-objcmt-migrate-property-dot-syntax
+-objcmt-migrate-subscripting
+-Qunused-arguments
+-objcmt-migrate-designated-init
+-Qunused-arguments
+-iquote
+-iquote
+-I/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/build/Debug-iphonesimulator/include
+-F/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/build/Debug-iphonesimulator
+i386-apple-darwin15.5.0
+"4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.38)"
+SDK_PRODUCT_BUILD_VERSION=14A345
+14A345

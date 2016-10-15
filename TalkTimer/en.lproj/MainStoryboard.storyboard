@@ -1,27 +1,393 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.0" toolsVersion="1906" systemVersion="11A511" targetRuntime="iOS.CocoaTouch" nextObjectID="6" propertyAccessControl="none" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES" initialViewController="2">
     <dependencies>
-        <development defaultVersion="4200" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="902"/>
+        <deployment version="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Inverval Setting View Controller-->
         <scene sceneID="5">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
-                <viewController id="2" customClass="SPLViewController" sceneMemberID="viewController">
+                <viewController id="2" customClass="InvervalSettingViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fPz-90-NQG"/>
+                        <viewControllerLayoutGuide type="bottom" id="6Y5-OB-ldQ"/>
+                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="top" image="ClockBackground.png" translatesAutoresizingMaskIntoConstraints="NO" id="yEh-JZ-41V">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="288" id="7Gk-Vv-YnI"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yfo-Er-M4m">
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ywm-4L-wBJ" userLabel="MyAd">
+                                        <frame key="frameInset" width="100.00%" height="51" maxY="58"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </view>
+                                    <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="top" fixedFrame="YES" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EUA-Cv-TQL">
+                                        <frame key="frameInset" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.27888238430023193" green="0.27891784906387329" blue="0.27886191010475159" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <items>
+                                            <barButtonItem style="plain" systemItem="flexibleSpace" id="i7D-bh-9mn"/>
+                                            <barButtonItem image="info-25.png" id="Lta-TW-g03">
+                                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="59O-UT-yJU">
+                                                    <rect key="frame" x="334" y="10" width="25" height="25"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.59489071370000002" green="0.74986636640000004" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <state key="normal" image="infoIcon.png">
+                                                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </state>
+                                                    <state key="highlighted">
+                                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </state>
+                                                    <connections>
+                                                        <segue destination="q3K-A1-pzL" kind="modal" id="gj8-Nf-gue"/>
+                                                    </connections>
+                                                </button>
+                                                <color key="tintColor" red="0.19376453760000001" green="0.50850099329999998" blue="0.85232251879999998" alpha="1" colorSpace="calibratedRGB"/>
+                                            </barButtonItem>
+                                        </items>
+                                        <color key="barTintColor" red="0.27888238430023193" green="0.27891784906387329" blue="0.27886191010475159" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </toolbar>
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" ambiguous="YES" misplaced="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="irv-gP-Tui">
+                                        <frame key="frameInset" minX="91" minY="261" width="193" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fFV-fh-h7G">
+                                        <frame key="frameInset" minX="73" minY="407" width="229" height="202"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="0.0"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <state key="normal" backgroundImage="GreenButton.png">
+                                            <attributedString key="attributedTitle"/>
+                                        </state>
+                                        <state key="selected" image="GreenButtonDown.png" backgroundImage="GreenButtonDown.png"/>
+                                        <state key="highlighted" image="GreenButtonDown.png"/>
+                                        <state key="focused" image="GreenButtonDown.png" backgroundImage="GreenButtonDown.png"/>
+                                        <connections>
+                                            <action selector="IndicateGo:" destination="2" eventType="touchDown" id="xc2-3Z-hg4"/>
+                                            <segue destination="2KV-i5-RY3" kind="modal" identifier="toCountdown" modalTransitionStyle="crossDissolve" id="Jqo-FQ-TOG"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="fFV-fh-h7G" firstAttribute="centerX" secondItem="yfo-Er-M4m" secondAttribute="centerX" id="2TF-OP-XO3"/>
+                                    <constraint firstItem="irv-gP-Tui" firstAttribute="centerX" secondItem="yfo-Er-M4m" secondAttribute="centerX" id="LOn-n4-RAG"/>
+                                    <constraint firstAttribute="bottom" secondItem="fFV-fh-h7G" secondAttribute="bottom" constant="58" id="qnP-cN-rmo"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="yfo-Er-M4m" firstAttribute="leading" secondItem="3" secondAttribute="leading" id="Bv5-6c-11u"/>
+                            <constraint firstItem="yfo-Er-M4m" firstAttribute="leading" secondItem="yEh-JZ-41V" secondAttribute="leading" id="CpQ-gO-tNM"/>
+                            <constraint firstItem="yfo-Er-M4m" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" id="Gl9-3d-jrg"/>
+                            <constraint firstItem="6Y5-OB-ldQ" firstAttribute="top" secondItem="yEh-JZ-41V" secondAttribute="bottom" constant="119" id="Wgx-44-IpS"/>
+                            <constraint firstItem="yfo-Er-M4m" firstAttribute="top" secondItem="fPz-90-NQG" secondAttribute="bottom" id="WxE-X2-RDP"/>
+                            <constraint firstItem="yfo-Er-M4m" firstAttribute="trailing" secondItem="yEh-JZ-41V" secondAttribute="trailing" id="kp8-md-nHO"/>
+                            <constraint firstItem="yfo-Er-M4m" firstAttribute="bottom" secondItem="6Y5-OB-ldQ" secondAttribute="top" id="s9Z-Co-J9e"/>
+                        </constraints>
                     </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="MyBannerView" destination="Ywm-4L-wBJ" id="7qd-MY-Rx5"/>
+                        <outlet property="iLabel" destination="irv-gP-Tui" id="dg3-WJ-5pg"/>
+                        <outlet property="parentView" destination="yfo-Er-M4m" id="XKe-ZJ-kDl"/>
+                        <outlet property="toolBar" destination="EUA-Cv-TQL" id="k2N-eK-kzv"/>
+                    </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-129.5" y="161.5"/>
+        </scene>
+        <!--Count Down View Controller-->
+        <scene sceneID="DYj-Pi-IAj">
+            <objects>
+                <viewController id="2KV-i5-RY3" customClass="SPLCountDownViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YDM-WD-qCz"/>
+                        <viewControllerLayoutGuide type="bottom" id="PHW-jC-5Vn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LvB-9m-nVT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PZ7-AE-2HO">
+                                <frame key="frameInset" minX="51.47%" width="42.40%" height="73" maxY="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <state key="normal" title="PAUSE" image="Pause.png" backgroundImage="Pause.png">
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <state key="highlighted" image="PauseOn.png"/>
+                                <state key="focused" image="PauseOn.png" backgroundImage="PauseOn.png"/>
+                                <connections>
+                                    <action selector="ClickDown:" destination="2KV-i5-RY3" eventType="touchDown" id="9Zd-aY-v5M"/>
+                                    <action selector="PauseClock:" destination="2KV-i5-RY3" eventType="touchUpInside" id="7g2-bF-eKg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uYd-FB-ZCp">
+                                <frame key="frameInset" minX="6.13%" width="42.40%" height="74" maxY="53"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <state key="normal" title="CANCEL" image="CancelButton.png" backgroundImage="CancelButton.png">
+                                    <color key="titleShadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <state key="selected" image="CancelOn.png" backgroundImage="CancelOn.png">
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="CancelOn.png"/>
+                                <state key="focused" image="CancelOn.png" backgroundImage="CancelOn.png"/>
+                                <connections>
+                                    <action selector="ClickDown:" destination="2KV-i5-RY3" eventType="touchDown" id="xWK-N2-kir"/>
+                                    <action selector="cancel:" destination="2KV-i5-RY3" eventType="touchUpInside" id="AbU-9r-VO2"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" text="0%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qUe-jA-Lx4">
+                                <frame key="frameInset" minX="17.60%" minY="37.03%" width="64.27%" height="26.09%"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="44"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="1" height="-1"/>
+                            </label>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sla-WI-HtZ" userLabel="CircleView">
+                                <frame key="frameInset" minX="66" minY="212" width="241" height="195"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="display.png" translatesAutoresizingMaskIntoConstraints="NO" id="aEE-ba-kFX">
+                                <frame key="frameInset" minX="-4" minY="8" width="382" height="196"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" restorationIdentifier="HourTop" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xZy-tu-L8b" userLabel="Hours - 88">
+                                <frame key="frameInset" minX="23" minY="49" width="80" height="78"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="63"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="1" green="1" blue="1" alpha="0.52000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="-1" height="1"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" restorationIdentifier="MinuteTop" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SgX-cD-eYK" userLabel="Minutes - 88">
+                                <frame key="frameInset" minX="118" minY="50" width="76" height="78"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="63"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="1" green="1" blue="1" alpha="0.52000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="-1" height="1"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" restorationIdentifier="SecondTop" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mqN-pY-32H" userLabel="Seconds - 88">
+                                <frame key="frameInset" minX="214" minY="50" width="74" height="78"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="63"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="1" green="1" blue="1" alpha="0.52000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="-1" height="1"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" text="00:00:00" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="oHN-0t-Wa1" userLabel="Elapsed Values">
+                                <frame key="frameInset" minX="23" minY="138" width="141" height="58"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="1" green="1" blue="1" alpha="0.52000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="-1" height="1"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" text="000" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Xp-8v-oc9" userLabel="MillisecondsTop - 00">
+                                <frame key="frameInset" minX="296" minY="49" width="52" height="50"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="1" green="1" blue="1" alpha="0.52000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="-1" height="1"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" text=":" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H4S-Cb-TrJ">
+                                <frame key="frameInset" minX="99" minY="51" width="22" height="75"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" text=":" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XuA-cG-vN9">
+                                <frame key="frameInset" minX="193" minY="49" width="22" height="79"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" misplaced="YES" text="000" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dnu-lT-7PW" userLabel="MillisecondsBottom - 00">
+                                <frame key="frameInset" minX="296" minY="89" width="63" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="highlightedColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="1" green="1" blue="1" alpha="0.52000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="-1" height="1"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LiF-oR-oj0" userLabel="MyAd">
+                                <frame key="frameInset" height="50"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.26512819528579712" green="0.26516219973564148" blue="0.2651086151599884" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="oHN-0t-Wa1" firstAttribute="leading" secondItem="xZy-tu-L8b" secondAttribute="leading" id="1jJ-RC-8nt"/>
+                            <constraint firstItem="qUe-jA-Lx4" firstAttribute="top" secondItem="YDM-WD-qCz" secondAttribute="bottom" constant="247" id="3bU-t8-e4b"/>
+                            <constraint firstItem="aEE-ba-kFX" firstAttribute="width" secondItem="LvB-9m-nVT" secondAttribute="width" id="3es-Sg-kln"/>
+                            <constraint firstItem="1Xp-8v-oc9" firstAttribute="leading" secondItem="mqN-pY-32H" secondAttribute="trailing" constant="8" id="6na-Gs-Kyb"/>
+                            <constraint firstItem="aEE-ba-kFX" firstAttribute="top" secondItem="1Xp-8v-oc9" secondAttribute="bottom" constant="-75" id="Glj-ZY-gaf"/>
+                            <constraint firstItem="XuA-cG-vN9" firstAttribute="centerY" secondItem="mqN-pY-32H" secondAttribute="centerY" id="KiG-kU-o0F"/>
+                            <constraint firstItem="Sla-WI-HtZ" firstAttribute="top" secondItem="oHN-0t-Wa1" secondAttribute="bottom" constant="21" id="Mrb-Dy-Jd6"/>
+                            <constraint firstItem="dnu-lT-7PW" firstAttribute="leading" secondItem="mqN-pY-32H" secondAttribute="trailing" constant="8" id="OYR-Of-FZh"/>
+                            <constraint firstItem="mqN-pY-32H" firstAttribute="leading" secondItem="xZy-tu-L8b" secondAttribute="trailing" constant="113" id="Osm-TB-2oU"/>
+                            <constraint firstItem="oHN-0t-Wa1" firstAttribute="top" secondItem="mqN-pY-32H" secondAttribute="bottom" constant="10" id="Pfp-p4-SCf"/>
+                            <constraint firstItem="aEE-ba-kFX" firstAttribute="top" secondItem="mqN-pY-32H" secondAttribute="bottom" constant="-104" id="Pm7-kK-Mde"/>
+                            <constraint firstItem="SgX-cD-eYK" firstAttribute="leading" secondItem="H4S-Cb-TrJ" secondAttribute="trailing" constant="-3" id="QnO-5g-Ibz"/>
+                            <constraint firstItem="Sla-WI-HtZ" firstAttribute="width" secondItem="LvB-9m-nVT" secondAttribute="width" id="QnV-Kb-45p"/>
+                            <constraint firstItem="SgX-cD-eYK" firstAttribute="centerY" secondItem="mqN-pY-32H" secondAttribute="centerY" id="RF6-l1-c49"/>
+                            <constraint firstItem="Sla-WI-HtZ" firstAttribute="centerY" secondItem="qUe-jA-Lx4" secondAttribute="centerY" id="TvJ-6H-kaz"/>
+                            <constraint firstItem="mqN-pY-32H" firstAttribute="leading" secondItem="aEE-ba-kFX" secondAttribute="trailing" constant="-163" id="YUW-x4-zcj"/>
+                            <constraint firstItem="dnu-lT-7PW" firstAttribute="bottom" secondItem="mqN-pY-32H" secondAttribute="bottom" id="aGd-HD-FRh"/>
+                            <constraint firstItem="mqN-pY-32H" firstAttribute="leading" secondItem="SgX-cD-eYK" secondAttribute="trailing" constant="20" id="cit-9i-ZIm"/>
+                            <constraint firstItem="aEE-ba-kFX" firstAttribute="top" secondItem="YDM-WD-qCz" secondAttribute="bottom" constant="8" id="dgu-JU-fmv"/>
+                            <constraint firstItem="xZy-tu-L8b" firstAttribute="centerY" secondItem="mqN-pY-32H" secondAttribute="centerY" id="gOu-C8-9zc"/>
+                            <constraint firstItem="qUe-jA-Lx4" firstAttribute="centerX" secondItem="LvB-9m-nVT" secondAttribute="centerX" id="gyD-rr-S6i"/>
+                            <constraint firstItem="aEE-ba-kFX" firstAttribute="centerX" secondItem="LvB-9m-nVT" secondAttribute="centerX" id="rDT-jz-2my"/>
+                            <constraint firstItem="mqN-pY-32H" firstAttribute="leading" secondItem="XuA-cG-vN9" secondAttribute="trailing" constant="-1" id="scr-Xy-Vai"/>
+                            <constraint firstItem="H4S-Cb-TrJ" firstAttribute="centerY" secondItem="mqN-pY-32H" secondAttribute="centerY" id="tEF-nE-ZsF"/>
+                            <constraint firstItem="Sla-WI-HtZ" firstAttribute="centerX" secondItem="LvB-9m-nVT" secondAttribute="centerX" id="yUI-5m-Gyd"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="AiJ-EQ-2cw"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <connections>
+                        <outlet property="CircleView" destination="Sla-WI-HtZ" id="Ebt-yA-7Yw"/>
+                        <outlet property="DigitsLabelBottom" destination="oHN-0t-Wa1" id="BSO-NT-jtc"/>
+                        <outlet property="HourColon" destination="H4S-Cb-TrJ" id="oIW-Jz-dgm"/>
+                        <outlet property="HoursTopLabel" destination="xZy-tu-L8b" id="wqU-WX-Eqn"/>
+                        <outlet property="MilisecondBottomLabel" destination="dnu-lT-7PW" id="ckd-lR-Ufl"/>
+                        <outlet property="MilisecondTopLabel" destination="1Xp-8v-oc9" id="sIz-CR-oVC"/>
+                        <outlet property="MinuteColon" destination="XuA-cG-vN9" id="KUl-qh-rJI"/>
+                        <outlet property="MinutesTopLabel" destination="SgX-cD-eYK" id="020-6i-MTd"/>
+                        <outlet property="MyAd" destination="LiF-oR-oj0" id="S4u-PW-uB6"/>
+                        <outlet property="PauseButton" destination="PZ7-AE-2HO" id="BzX-h4-Tz0"/>
+                        <outlet property="PercentAmount" destination="qUe-jA-Lx4" id="igb-BR-FUV"/>
+                        <outlet property="SecondsTopLabel" destination="mqN-pY-32H" id="5Al-eT-zyg"/>
+                        <outlet property="cancelButton" destination="uYd-FB-ZCp" id="9SN-bt-aKG"/>
+                        <outlet property="parentView" destination="LvB-9m-nVT" id="kTs-ku-T3F"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lB8-5l-nc8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="372.5" y="-272.5"/>
+        </scene>
+        <!--About View Controller-->
+        <scene sceneID="vf9-Q4-J8C">
+            <objects>
+                <tableViewController id="q3K-A1-pzL" customClass="SPLAboutViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="Ift-gT-dPZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <toolbar key="tableHeaderView" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="xnd-tt-Kfx">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <items>
+                                <barButtonItem style="plain" systemItem="flexibleSpace" id="baL-ba-PnU">
+                                    <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </barButtonItem>
+                                <barButtonItem title="Cancel" id="jTc-3n-h3i">
+                                    <inset key="imageInsets" minX="0.0" minY="0.0" maxX="27" maxY="0.0"/>
+                                    <connections>
+                                        <action selector="CancelModal:" destination="q3K-A1-pzL" id="pkZ-Yd-DGW"/>
+                                    </connections>
+                                </barButtonItem>
+                            </items>
+                        </toolbar>
+                        <view key="tableFooterView" contentMode="scaleToFill" id="Pkn-5n-W76">
+                            <rect key="frame" x="0.0" y="154" width="375" height="868"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <subviews>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="Thank you for using Timer To Go!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gIP-dc-UVe">
+                                    <frame key="frameInset" minX="20" minY="10" width="280" height="38"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <nil key="highlightedColor"/>
+                                    <color key="shadowColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E3m-Ac-6vp">
+                                    <frame key="frameInset" minX="99" minY="101" width="122" height="44"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" size="button"/>
+                                    <size key="titleShadowOffset" width="0.0" height="-1"/>
+                                    <state key="normal" title="Send Email">
+                                        <color key="titleColor" red="1" green="0.51726916551164104" blue="0.064033623546636442" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="titleShadowColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="sendEmail:" destination="q3K-A1-pzL" eventType="touchUpInside" id="XLy-lS-eNh"/>
+                                    </connections>
+                                </button>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="You're using Version 2.0. Please contact us if you have any problems or suggestions." lineBreakMode="tailTruncation" numberOfLines="4" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O0A-zm-QgW">
+                                    <frame key="frameInset" minX="20" minY="44" width="280" height="63"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </view>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" restorationIdentifier="ProtoCell" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="aboutPrototypCell" id="853-rc-MGj">
+                                <rect key="frame" x="0.0" y="100" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="853-rc-MGj" id="9VC-2Q-xTM">
+                                    <frame key="frameInset" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="q3K-A1-pzL" id="rrT-hE-uOU"/>
+                            <outlet property="delegate" destination="q3K-A1-pzL" id="BFl-I1-AT1"/>
+                        </connections>
+                    </tableView>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="CancelButton" destination="jTc-3n-h3i" id="rLL-wE-lFV"/>
+                        <outlet property="Headline" destination="gIP-dc-UVe" id="RQL-4J-05w"/>
+                        <outlet property="aboutToolbar" destination="xnd-tt-Kfx" id="pWP-V2-T6l"/>
+                        <outlet property="buttonText" destination="E3m-Ac-6vp" id="JyC-eM-ikV"/>
+                        <outlet property="textBody" destination="O0A-zm-QgW" id="gYm-i0-NRD"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KFJ-Mh-I6O" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="372.5" y="440.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="CancelButton.png" width="133" height="67"/>
+        <image name="CancelOn.png" width="133" height="67"/>
+        <image name="ClockBackground.png" width="320" height="480"/>
+        <image name="GreenButton.png" width="172" height="176"/>
+        <image name="GreenButtonDown.png" width="172" height="176"/>
+        <image name="Pause.png" width="133" height="67"/>
+        <image name="PauseOn.png" width="133" height="67"/>
+        <image name="display.png" width="332" height="183"/>
+        <image name="info-25.png" width="25" height="25"/>
+        <image name="infoIcon.png" width="25" height="25"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
     </simulatedMetricsContainer>
 </document>

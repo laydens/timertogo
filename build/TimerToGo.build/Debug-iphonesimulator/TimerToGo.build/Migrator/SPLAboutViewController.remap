@@ -1,0 +1,8 @@
+[
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/SPLAboutViewController.m",
+  "offset": 328,
+  "remove": 2,
+  "text": "instancetype",
+ },
+]

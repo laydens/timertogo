@@ -1,0 +1,1205 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E5AC2701DAC9DE50064FFF5 /* FullVersion in Resources */ = {isa = PBXBuildFile; fileRef = 7E5AC26F1DAC9DE50064FFF5 /* FullVersion */; };
+		7E5AC2721DACA2920064FFF5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E5AC2711DACA2920064FFF5 /* Images.xcassets */; };
+		FB05DFD6167EC61800E1E243 /* SPLTimeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3BFF21167E6E6A0019BB3B /* SPLTimeManager.m */; };
+		FB0CB6BA168FE0B800263D0B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB0CB6B8168FE09A00263D0B /* MessageUI.framework */; };
+		FB0CB6BB168FE0C400263D0B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB0CB6B8168FE09A00263D0B /* MessageUI.framework */; };
+		FB3BFF14167D37C90019BB3B /* downclick.aif in Resources */ = {isa = PBXBuildFile; fileRef = FB3BFF11167D37C80019BB3B /* downclick.aif */; };
+		FB3BFF15167D37C90019BB3B /* pingclick.aif in Resources */ = {isa = PBXBuildFile; fileRef = FB3BFF12167D37C90019BB3B /* pingclick.aif */; };
+		FB3BFF16167D37C90019BB3B /* upclick.aif in Resources */ = {isa = PBXBuildFile; fileRef = FB3BFF13167D37C90019BB3B /* upclick.aif */; };
+		FB3BFF1B167D85470019BB3B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FB3BFF19167D85460019BB3B /* Default.png */; };
+		FB3BFF1C167D85470019BB3B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB3BFF1A167D85470019BB3B /* Default@2x.png */; };
+		FB3BFF1E167E366F0019BB3B /* endingBell.aif in Resources */ = {isa = PBXBuildFile; fileRef = FB3BFF1D167E366F0019BB3B /* endingBell.aif */; };
+		FB3BFF22167E6E6B0019BB3B /* SPLTimeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3BFF21167E6E6A0019BB3B /* SPLTimeManager.m */; };
+		FB6874A916744F7200CD5448 /* settinicon.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6874A816744F7200CD5448 /* settinicon.png */; };
+		FB844D79168A859600D6DE31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8FA15C1669993600FCC322 /* main.m */; };
+		FB844D7A168A859600D6DE31 /* SPLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8FA1601669993600FCC322 /* SPLAppDelegate.m */; };
+		FB844D7B168A859600D6DE31 /* InvervalSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8FA1661669993600FCC322 /* InvervalSettingViewController.m */; };
+		FB844D7C168A859600D6DE31 /* SPLCountDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8FA18A166B007A00FCC322 /* SPLCountDownViewController.m */; };
+		FB844D7D168A859600D6DE31 /* SPLSoundPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF9CCB5167AF78A00334CFD /* SPLSoundPlayer.m */; };
+		FB844D7E168A859600D6DE31 /* SPLTimeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3BFF21167E6E6A0019BB3B /* SPLTimeManager.m */; };
+		FB844D7F168A859600D6DE31 /* ProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC8DECD16803F6100B42140 /* ProgressIndicator.m */; };
+		FB844D80168A859600D6DE31 /* UIColor+Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC8DED21682DB4500B42140 /* UIColor+Colors.m */; };
+		FB844D81168A859600D6DE31 /* SPLBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCD317F16890E6F0005C11B /* SPLBannerViewController.m */; };
+		FB844D83168A859600D6DE31 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCD3176168815C90005C11B /* iAd.framework */; };
+		FB844D84168A859600D6DE31 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF9CCB9167AFCA400334CFD /* AudioToolbox.framework */; };
+		FB844D85168A859600D6DE31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8FA1501669993600FCC322 /* UIKit.framework */; };
+		FB844D86168A859600D6DE31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8FA1521669993600FCC322 /* Foundation.framework */; };
+		FB844D87168A859600D6DE31 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8FA1541669993600FCC322 /* CoreGraphics.framework */; };
+		FB844D89168A859600D6DE31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB8FA1591669993600FCC322 /* InfoPlist.strings */; };
+		FB844D8A168A859600D6DE31 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8FA1621669993600FCC322 /* MainStoryboard.storyboard */; };
+		FB844D8B168A859600D6DE31 /* AppBackGround@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB44FE9166C6C0100CEBE04 /* AppBackGround@2x.png */; };
+		FB844D8C168A859600D6DE31 /* AppBackGround.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB44FEA166C6C0100CEBE04 /* AppBackGround.png */; };
+		FB844D8D168A859600D6DE31 /* StartButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB44FF5166C780700CEBE04 /* StartButton.png */; };
+		FB844D8E168A859600D6DE31 /* StartButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB44FF6166C780700CEBE04 /* StartButton@2x.png */; };
+		FB844D8F168A859600D6DE31 /* CancelButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB44FF916742EEF00CEBE04 /* CancelButton.png */; };
+		FB844D90168A859600D6DE31 /* CancelOn.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB44FFA16742EF000CEBE04 /* CancelOn.png */; };
+		FB844D91168A859600D6DE31 /* ClockBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB44FFB16742EF000CEBE04 /* ClockBackground.png */; };
+		FB844D92168A859600D6DE31 /* ClockBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB44FFC16742EF000CEBE04 /* ClockBackground@2x.png */; };
+		FB844D93168A859600D6DE31 /* GreenButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB44FFD16742EF000CEBE04 /* GreenButton.png */; };
+		FB844D94168A859600D6DE31 /* GreenButtonDown.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB44FFE16742EF000CEBE04 /* GreenButtonDown.png */; };
+		FB844D95168A859600D6DE31 /* Pause.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB44FFF16742EF000CEBE04 /* Pause.png */; };
+		FB844D96168A859600D6DE31 /* PauseOn.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB4500016742EF000CEBE04 /* PauseOn.png */; };
+		FB844D97168A859600D6DE31 /* settinicon.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6874A816744F7200CD5448 /* settinicon.png */; };
+		FB844D98168A859600D6DE31 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBF9CC9C1675376F00334CFD /* Default-568h@2x.png */; };
+		FB844D99168A859600D6DE31 /* display.png in Resources */ = {isa = PBXBuildFile; fileRef = FBF9CC9F1675376F00334CFD /* display.png */; };
+		FB844D9A168A859600D6DE31 /* DS-DIGI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = FBF9CCA41675391900334CFD /* DS-DIGI.TTF */; };
+		FB844D9B168A859600D6DE31 /* digital7mono.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBF9CCA6167563CC00334CFD /* digital7mono.ttf */; };
+		FB844D9C168A859600D6DE31 /* resume.png in Resources */ = {isa = PBXBuildFile; fileRef = FBF9CCA81676FBAF00334CFD /* resume.png */; };
+		FB844D9D168A859600D6DE31 /* resumeOn.png in Resources */ = {isa = PBXBuildFile; fileRef = FBF9CCA91676FBAF00334CFD /* resumeOn.png */; };
+		FB844D9E168A859600D6DE31 /* downclick.aif in Resources */ = {isa = PBXBuildFile; fileRef = FB3BFF11167D37C80019BB3B /* downclick.aif */; };
+		FB844D9F168A859600D6DE31 /* pingclick.aif in Resources */ = {isa = PBXBuildFile; fileRef = FB3BFF12167D37C90019BB3B /* pingclick.aif */; };
+		FB844DA0168A859600D6DE31 /* upclick.aif in Resources */ = {isa = PBXBuildFile; fileRef = FB3BFF13167D37C90019BB3B /* upclick.aif */; };
+		FB844DA1168A859600D6DE31 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FB3BFF19167D85460019BB3B /* Default.png */; };
+		FB844DA2168A859600D6DE31 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB3BFF1A167D85470019BB3B /* Default@2x.png */; };
+		FB844DA3168A859600D6DE31 /* endingBell.aif in Resources */ = {isa = PBXBuildFile; fileRef = FB3BFF1D167E366F0019BB3B /* endingBell.aif */; };
+		FB844DA4168A859600D6DE31 /* progressCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC8DECF1682BB5F00B42140 /* progressCircle.png */; };
+		FB844DA5168A859600D6DE31 /* Apple LiGothic Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBC8DED416856E3800B42140 /* Apple LiGothic Medium.ttf */; };
+		FB844DA6168A859600D6DE31 /* TTBanner.png in Resources */ = {isa = PBXBuildFile; fileRef = FBCD317A168908880005C11B /* TTBanner.png */; };
+		FB844DA7168A859600D6DE31 /* TTBanner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBCD317B168908880005C11B /* TTBanner@2x.png */; };
+		FB8FA1511669993600FCC322 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8FA1501669993600FCC322 /* UIKit.framework */; };
+		FB8FA1531669993600FCC322 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8FA1521669993600FCC322 /* Foundation.framework */; };
+		FB8FA1551669993600FCC322 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8FA1541669993600FCC322 /* CoreGraphics.framework */; };
+		FB8FA15B1669993600FCC322 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB8FA1591669993600FCC322 /* InfoPlist.strings */; };
+		FB8FA15D1669993600FCC322 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8FA15C1669993600FCC322 /* main.m */; };
+		FB8FA1611669993600FCC322 /* SPLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8FA1601669993600FCC322 /* SPLAppDelegate.m */; };
+		FB8FA1641669993600FCC322 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8FA1621669993600FCC322 /* MainStoryboard.storyboard */; };
+		FB8FA1671669993600FCC322 /* InvervalSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8FA1661669993600FCC322 /* InvervalSettingViewController.m */; };
+		FB8FA16F1669993600FCC322 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8FA16E1669993600FCC322 /* SenTestingKit.framework */; };
+		FB8FA1701669993600FCC322 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8FA1501669993600FCC322 /* UIKit.framework */; };
+		FB8FA1711669993600FCC322 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8FA1521669993600FCC322 /* Foundation.framework */; };
+		FB8FA1791669993600FCC322 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB8FA1771669993600FCC322 /* InfoPlist.strings */; };
+		FB8FA17C1669993700FCC322 /* TalkTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8FA17B1669993700FCC322 /* TalkTimerTests.m */; };
+		FB8FA18B166B007B00FCC322 /* SPLCountDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8FA18A166B007A00FCC322 /* SPLCountDownViewController.m */; };
+		FB98CDBC1692D9F4000DD0B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8FA15C1669993600FCC322 /* main.m */; };
+		FB98CDBD1692D9F4000DD0B1 /* SPLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8FA1601669993600FCC322 /* SPLAppDelegate.m */; };
+		FB98CDBE1692D9F4000DD0B1 /* InvervalSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8FA1661669993600FCC322 /* InvervalSettingViewController.m */; };
+		FB98CDBF1692D9F4000DD0B1 /* SPLCountDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8FA18A166B007A00FCC322 /* SPLCountDownViewController.m */; };
+		FB98CDC01692D9F4000DD0B1 /* SPLSoundPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF9CCB5167AF78A00334CFD /* SPLSoundPlayer.m */; };
+		FB98CDC11692D9F4000DD0B1 /* SPLTimeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3BFF21167E6E6A0019BB3B /* SPLTimeManager.m */; };
+		FB98CDC21692D9F4000DD0B1 /* ProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC8DECD16803F6100B42140 /* ProgressIndicator.m */; };
+		FB98CDC31692D9F4000DD0B1 /* UIColor+Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC8DED21682DB4500B42140 /* UIColor+Colors.m */; };
+		FB98CDC41692D9F4000DD0B1 /* SPLBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCD317F16890E6F0005C11B /* SPLBannerViewController.m */; };
+		FB98CDC51692D9F4000DD0B1 /* SPLLabeledPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB24396168E150C00B7D06C /* SPLLabeledPickerView.m */; };
+		FB98CDC61692D9F4000DD0B1 /* SPLAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBEE353168E848C00F390C3 /* SPLAboutViewController.m */; };
+		FB98CDC81692D9F4000DD0B1 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB0CB6B8168FE09A00263D0B /* MessageUI.framework */; };
+		FB98CDC91692D9F4000DD0B1 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCD3176168815C90005C11B /* iAd.framework */; };
+		FB98CDCA1692D9F4000DD0B1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF9CCB9167AFCA400334CFD /* AudioToolbox.framework */; };
+		FB98CDCB1692D9F4000DD0B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8FA1501669993600FCC322 /* UIKit.framework */; };
+		FB98CDCC1692D9F4000DD0B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8FA1521669993600FCC322 /* Foundation.framework */; };
+		FB98CDCD1692D9F4000DD0B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8FA1541669993600FCC322 /* CoreGraphics.framework */; };
+		FB98CDD11692D9F4000DD0B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FB8FA1591669993600FCC322 /* InfoPlist.strings */; };
+		FB98CDD21692D9F4000DD0B1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8FA1621669993600FCC322 /* MainStoryboard.storyboard */; };
+		FB98CDD31692D9F4000DD0B1 /* AppBackGround@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB44FE9166C6C0100CEBE04 /* AppBackGround@2x.png */; };
+		FB98CDD41692D9F4000DD0B1 /* AppBackGround.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB44FEA166C6C0100CEBE04 /* AppBackGround.png */; };
+		FB98CDD51692D9F4000DD0B1 /* StartButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB44FF5166C780700CEBE04 /* StartButton.png */; };
+		FB98CDD61692D9F4000DD0B1 /* StartButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB44FF6166C780700CEBE04 /* StartButton@2x.png */; };
+		FB98CDD71692D9F4000DD0B1 /* CancelButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB44FF916742EEF00CEBE04 /* CancelButton.png */; };
+		FB98CDD81692D9F4000DD0B1 /* CancelOn.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB44FFA16742EF000CEBE04 /* CancelOn.png */; };
+		FB98CDD91692D9F4000DD0B1 /* ClockBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB44FFB16742EF000CEBE04 /* ClockBackground.png */; };
+		FB98CDDA1692D9F4000DD0B1 /* ClockBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB44FFC16742EF000CEBE04 /* ClockBackground@2x.png */; };
+		FB98CDDB1692D9F4000DD0B1 /* GreenButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB44FFD16742EF000CEBE04 /* GreenButton.png */; };
+		FB98CDDC1692D9F4000DD0B1 /* GreenButtonDown.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB44FFE16742EF000CEBE04 /* GreenButtonDown.png */; };
+		FB98CDDD1692D9F4000DD0B1 /* Pause.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB44FFF16742EF000CEBE04 /* Pause.png */; };
+		FB98CDDE1692D9F4000DD0B1 /* PauseOn.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB4500016742EF000CEBE04 /* PauseOn.png */; };
+		FB98CDDF1692D9F4000DD0B1 /* settinicon.png in Resources */ = {isa = PBXBuildFile; fileRef = FB6874A816744F7200CD5448 /* settinicon.png */; };
+		FB98CDE01692D9F4000DD0B1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBF9CC9C1675376F00334CFD /* Default-568h@2x.png */; };
+		FB98CDE11692D9F4000DD0B1 /* display.png in Resources */ = {isa = PBXBuildFile; fileRef = FBF9CC9F1675376F00334CFD /* display.png */; };
+		FB98CDE21692D9F4000DD0B1 /* DS-DIGI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = FBF9CCA41675391900334CFD /* DS-DIGI.TTF */; };
+		FB98CDE31692D9F4000DD0B1 /* digital7mono.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBF9CCA6167563CC00334CFD /* digital7mono.ttf */; };
+		FB98CDE41692D9F4000DD0B1 /* resume.png in Resources */ = {isa = PBXBuildFile; fileRef = FBF9CCA81676FBAF00334CFD /* resume.png */; };
+		FB98CDE51692D9F4000DD0B1 /* resumeOn.png in Resources */ = {isa = PBXBuildFile; fileRef = FBF9CCA91676FBAF00334CFD /* resumeOn.png */; };
+		FB98CDE61692D9F4000DD0B1 /* downclick.aif in Resources */ = {isa = PBXBuildFile; fileRef = FB3BFF11167D37C80019BB3B /* downclick.aif */; };
+		FB98CDE71692D9F4000DD0B1 /* pingclick.aif in Resources */ = {isa = PBXBuildFile; fileRef = FB3BFF12167D37C90019BB3B /* pingclick.aif */; };
+		FB98CDE81692D9F4000DD0B1 /* upclick.aif in Resources */ = {isa = PBXBuildFile; fileRef = FB3BFF13167D37C90019BB3B /* upclick.aif */; };
+		FB98CDE91692D9F4000DD0B1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FB3BFF19167D85460019BB3B /* Default.png */; };
+		FB98CDEA1692D9F4000DD0B1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB3BFF1A167D85470019BB3B /* Default@2x.png */; };
+		FB98CDEB1692D9F4000DD0B1 /* endingBell.aif in Resources */ = {isa = PBXBuildFile; fileRef = FB3BFF1D167E366F0019BB3B /* endingBell.aif */; };
+		FB98CDEC1692D9F4000DD0B1 /* progressCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC8DECF1682BB5F00B42140 /* progressCircle.png */; };
+		FB98CDED1692D9F4000DD0B1 /* Apple LiGothic Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBC8DED416856E3800B42140 /* Apple LiGothic Medium.ttf */; };
+		FB98CDEE1692D9F4000DD0B1 /* TTBanner.png in Resources */ = {isa = PBXBuildFile; fileRef = FBCD317A168908880005C11B /* TTBanner.png */; };
+		FB98CDEF1692D9F4000DD0B1 /* TTBanner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBCD317B168908880005C11B /* TTBanner@2x.png */; };
+		FB98CDF21692D9F4000DD0B1 /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = FB9C703C168BF8BD005DD1AE /* iTunesArtwork.png */; };
+		FB98CDF31692D9F4000DD0B1 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB9C703D168BF8BD005DD1AE /* iTunesArtwork@2x.png */; };
+		FB98CDF41692D9F4000DD0B1 /* infoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBEE348168E635700F390C3 /* infoIcon.png */; };
+		FB98CDF51692D9F4000DD0B1 /* infoIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBEE349168E635700F390C3 /* infoIcon@2x.png */; };
+		FB9C703E168BF8BD005DD1AE /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = FB9C703C168BF8BD005DD1AE /* iTunesArtwork.png */; };
+		FB9C703F168BF8BD005DD1AE /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB9C703D168BF8BD005DD1AE /* iTunesArtwork@2x.png */; };
+		FBB24397168E150C00B7D06C /* SPLLabeledPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB24396168E150C00B7D06C /* SPLLabeledPickerView.m */; };
+		FBB24398168E1A1800B7D06C /* SPLLabeledPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB24396168E150C00B7D06C /* SPLLabeledPickerView.m */; };
+		FBB44FEB166C6C0100CEBE04 /* AppBackGround@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB44FE9166C6C0100CEBE04 /* AppBackGround@2x.png */; };
+		FBB44FEC166C6C0100CEBE04 /* AppBackGround.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB44FEA166C6C0100CEBE04 /* AppBackGround.png */; };
+		FBB44FF7166C780700CEBE04 /* StartButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB44FF5166C780700CEBE04 /* StartButton.png */; };
+		FBB44FF8166C780700CEBE04 /* StartButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB44FF6166C780700CEBE04 /* StartButton@2x.png */; };
+		FBB4500216742EF000CEBE04 /* CancelButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB44FF916742EEF00CEBE04 /* CancelButton.png */; };
+		FBB4500316742EF000CEBE04 /* CancelOn.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB44FFA16742EF000CEBE04 /* CancelOn.png */; };
+		FBB4500416742EF000CEBE04 /* ClockBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB44FFB16742EF000CEBE04 /* ClockBackground.png */; };
+		FBB4500516742EF000CEBE04 /* ClockBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB44FFC16742EF000CEBE04 /* ClockBackground@2x.png */; };
+		FBB4500616742EF000CEBE04 /* GreenButton.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB44FFD16742EF000CEBE04 /* GreenButton.png */; };
+		FBB4500716742EF000CEBE04 /* GreenButtonDown.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB44FFE16742EF000CEBE04 /* GreenButtonDown.png */; };
+		FBB4500816742EF000CEBE04 /* Pause.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB44FFF16742EF000CEBE04 /* Pause.png */; };
+		FBB4500916742EF000CEBE04 /* PauseOn.png in Resources */ = {isa = PBXBuildFile; fileRef = FBB4500016742EF000CEBE04 /* PauseOn.png */; };
+		FBBEE34A168E635700F390C3 /* infoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBEE348168E635700F390C3 /* infoIcon.png */; };
+		FBBEE34B168E635700F390C3 /* infoIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBEE349168E635700F390C3 /* infoIcon@2x.png */; };
+		FBBEE34D168E654C00F390C3 /* infoIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBEE348168E635700F390C3 /* infoIcon.png */; };
+		FBBEE34E168E655100F390C3 /* infoIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBBEE349168E635700F390C3 /* infoIcon@2x.png */; };
+		FBBEE354168E848C00F390C3 /* SPLAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBEE353168E848C00F390C3 /* SPLAboutViewController.m */; };
+		FBBEE355168E848C00F390C3 /* SPLAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBBEE353168E848C00F390C3 /* SPLAboutViewController.m */; };
+		FBC8DEC81680200700B42140 /* SPLTimeManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC8DEC71680200700B42140 /* SPLTimeManagerTests.m */; };
+		FBC8DECE16803F6100B42140 /* ProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC8DECD16803F6100B42140 /* ProgressIndicator.m */; };
+		FBC8DED01682BB5F00B42140 /* progressCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = FBC8DECF1682BB5F00B42140 /* progressCircle.png */; };
+		FBC8DED31682DB4500B42140 /* UIColor+Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC8DED21682DB4500B42140 /* UIColor+Colors.m */; };
+		FBC8DED516856E3900B42140 /* Apple LiGothic Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBC8DED416856E3800B42140 /* Apple LiGothic Medium.ttf */; };
+		FBCD3179168816000005C11B /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBCD3176168815C90005C11B /* iAd.framework */; };
+		FBCD317C168908890005C11B /* TTBanner.png in Resources */ = {isa = PBXBuildFile; fileRef = FBCD317A168908880005C11B /* TTBanner.png */; };
+		FBCD317D168908890005C11B /* TTBanner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBCD317B168908880005C11B /* TTBanner@2x.png */; };
+		FBCD318016890E700005C11B /* SPLBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBCD317F16890E6F0005C11B /* SPLBannerViewController.m */; };
+		FBF9CCA01675376F00334CFD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FBF9CC9C1675376F00334CFD /* Default-568h@2x.png */; };
+		FBF9CCA31675376F00334CFD /* display.png in Resources */ = {isa = PBXBuildFile; fileRef = FBF9CC9F1675376F00334CFD /* display.png */; };
+		FBF9CCA51675391900334CFD /* DS-DIGI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = FBF9CCA41675391900334CFD /* DS-DIGI.TTF */; };
+		FBF9CCA7167563CC00334CFD /* digital7mono.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBF9CCA6167563CC00334CFD /* digital7mono.ttf */; };
+		FBF9CCAA1676FBAF00334CFD /* resume.png in Resources */ = {isa = PBXBuildFile; fileRef = FBF9CCA81676FBAF00334CFD /* resume.png */; };
+		FBF9CCAB1676FBAF00334CFD /* resumeOn.png in Resources */ = {isa = PBXBuildFile; fileRef = FBF9CCA91676FBAF00334CFD /* resumeOn.png */; };
+		FBF9CCB6167AF78B00334CFD /* SPLSoundPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF9CCB5167AF78A00334CFD /* SPLSoundPlayer.m */; };
+		FBF9CCBC167AFCD600334CFD /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF9CCB9167AFCA400334CFD /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB8FA1721669993600FCC322 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB8FA1431669993600FCC322 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB8FA14B1669993600FCC322;
+			remoteInfo = TalkTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E5AC26F1DAC9DE50064FFF5 /* FullVersion */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FullVersion; sourceTree = "<group>"; };
+		7E5AC2711DACA2920064FFF5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TimerToGo/Images.xcassets; sourceTree = "<group>"; };
+		FB0CB6B8168FE09A00263D0B /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		FB3BFF11167D37C80019BB3B /* downclick.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = downclick.aif; sourceTree = "<group>"; };
+		FB3BFF12167D37C90019BB3B /* pingclick.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = pingclick.aif; sourceTree = "<group>"; };
+		FB3BFF13167D37C90019BB3B /* upclick.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = upclick.aif; sourceTree = "<group>"; };
+		FB3BFF19167D85460019BB3B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FB3BFF1A167D85470019BB3B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FB3BFF1D167E366F0019BB3B /* endingBell.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = endingBell.aif; sourceTree = "<group>"; };
+		FB3BFF20167E6E6A0019BB3B /* SPLTimeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPLTimeManager.h; sourceTree = "<group>"; };
+		FB3BFF21167E6E6A0019BB3B /* SPLTimeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPLTimeManager.m; sourceTree = "<group>"; };
+		FB3BFF24167E7A3B0019BB3B /* SPLTimerClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPLTimerClient.h; sourceTree = "<group>"; };
+		FB6874A816744F7200CD5448 /* settinicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settinicon.png; sourceTree = "<group>"; };
+		FB82BB54168C23E7009C05AB /* TimerToGoPlus-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TimerToGoPlus-Info.plist"; sourceTree = SOURCE_ROOT; };
+		FB844DAC168A859600D6DE31 /* Timer To Go.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Timer To Go.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8FA14C1669993600FCC322 /* Timer To Go Free.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Timer To Go Free.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8FA1501669993600FCC322 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FB8FA1521669993600FCC322 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FB8FA1541669993600FCC322 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FB8FA15A1669993600FCC322 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FB8FA15C1669993600FCC322 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB8FA15E1669993600FCC322 /* TimerToGo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TimerToGo-Prefix.pch"; sourceTree = "<group>"; };
+		FB8FA15F1669993600FCC322 /* SPLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPLAppDelegate.h; sourceTree = "<group>"; };
+		FB8FA1601669993600FCC322 /* SPLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPLAppDelegate.m; sourceTree = "<group>"; };
+		FB8FA1631669993600FCC322 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FB8FA1651669993600FCC322 /* InvervalSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InvervalSettingViewController.h; sourceTree = "<group>"; };
+		FB8FA1661669993600FCC322 /* InvervalSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InvervalSettingViewController.m; sourceTree = "<group>"; };
+		FB8FA16D1669993600FCC322 /* TimerToGoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimerToGoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8FA16E1669993600FCC322 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FB8FA1761669993600FCC322 /* TimerToGoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TimerToGoTests-Info.plist"; sourceTree = "<group>"; };
+		FB8FA1781669993600FCC322 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FB8FA17A1669993600FCC322 /* TalkTimerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TalkTimerTests.h; sourceTree = "<group>"; };
+		FB8FA17B1669993700FCC322 /* TalkTimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TalkTimerTests.m; sourceTree = "<group>"; };
+		FB8FA189166B007A00FCC322 /* SPLCountDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPLCountDownViewController.h; sourceTree = "<group>"; };
+		FB8FA18A166B007A00FCC322 /* SPLCountDownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPLCountDownViewController.m; sourceTree = "<group>"; };
+		FB98CDFA1692D9F4000DD0B1 /* Timer To Go.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Timer To Go.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB98CDFC1692D9F6000DD0B1 /* Timer To Go copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Timer To Go copy-Info.plist"; path = "/Users/shannon/Documents/DevProjects/TimerToGo/TimerToGo/Timer To Go copy-Info.plist"; sourceTree = "<absolute>"; };
+		FB9C7035168BE51C005DD1AE /* TimerToGoFree-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TimerToGoFree-Info.plist"; sourceTree = "<group>"; };
+		FB9C703C168BF8BD005DD1AE /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		FB9C703D168BF8BD005DD1AE /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		FBB24395168E150C00B7D06C /* SPLLabeledPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPLLabeledPickerView.h; sourceTree = "<group>"; };
+		FBB24396168E150C00B7D06C /* SPLLabeledPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPLLabeledPickerView.m; sourceTree = "<group>"; };
+		FBB44FE9166C6C0100CEBE04 /* AppBackGround@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppBackGround@2x.png"; sourceTree = "<group>"; };
+		FBB44FEA166C6C0100CEBE04 /* AppBackGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppBackGround.png; sourceTree = "<group>"; };
+		FBB44FF5166C780700CEBE04 /* StartButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = StartButton.png; sourceTree = "<group>"; };
+		FBB44FF6166C780700CEBE04 /* StartButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StartButton@2x.png"; sourceTree = "<group>"; };
+		FBB44FF916742EEF00CEBE04 /* CancelButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CancelButton.png; sourceTree = "<group>"; };
+		FBB44FFA16742EF000CEBE04 /* CancelOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CancelOn.png; sourceTree = "<group>"; };
+		FBB44FFB16742EF000CEBE04 /* ClockBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ClockBackground.png; sourceTree = "<group>"; };
+		FBB44FFC16742EF000CEBE04 /* ClockBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ClockBackground@2x.png"; sourceTree = "<group>"; };
+		FBB44FFD16742EF000CEBE04 /* GreenButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GreenButton.png; sourceTree = "<group>"; };
+		FBB44FFE16742EF000CEBE04 /* GreenButtonDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GreenButtonDown.png; sourceTree = "<group>"; };
+		FBB44FFF16742EF000CEBE04 /* Pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pause.png; sourceTree = "<group>"; };
+		FBB4500016742EF000CEBE04 /* PauseOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PauseOn.png; sourceTree = "<group>"; };
+		FBBEE348168E635700F390C3 /* infoIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = infoIcon.png; sourceTree = "<group>"; };
+		FBBEE349168E635700F390C3 /* infoIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "infoIcon@2x.png"; sourceTree = "<group>"; };
+		FBBEE352168E848C00F390C3 /* SPLAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPLAboutViewController.h; sourceTree = SOURCE_ROOT; };
+		FBBEE353168E848C00F390C3 /* SPLAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPLAboutViewController.m; sourceTree = SOURCE_ROOT; };
+		FBC8DEC61680200700B42140 /* SPLTimeManagerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPLTimeManagerTests.h; sourceTree = "<group>"; };
+		FBC8DEC71680200700B42140 /* SPLTimeManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPLTimeManagerTests.m; sourceTree = "<group>"; };
+		FBC8DECC16803F6100B42140 /* ProgressIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProgressIndicator.h; path = ../ProgressIndicator.h; sourceTree = "<group>"; };
+		FBC8DECD16803F6100B42140 /* ProgressIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProgressIndicator.m; path = ../ProgressIndicator.m; sourceTree = "<group>"; };
+		FBC8DECF1682BB5F00B42140 /* progressCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = progressCircle.png; sourceTree = "<group>"; };
+		FBC8DED11682DB4500B42140 /* UIColor+Colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Colors.h"; sourceTree = "<group>"; };
+		FBC8DED21682DB4500B42140 /* UIColor+Colors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Colors.m"; sourceTree = "<group>"; };
+		FBC8DED416856E3800B42140 /* Apple LiGothic Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Apple LiGothic Medium.ttf"; path = "TalkTimer/Apple LiGothic Medium.ttf"; sourceTree = "<group>"; };
+		FBCD3176168815C90005C11B /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		FBCD317A168908880005C11B /* TTBanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TTBanner.png; sourceTree = "<group>"; };
+		FBCD317B168908880005C11B /* TTBanner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TTBanner@2x.png"; sourceTree = "<group>"; };
+		FBCD317E16890E6F0005C11B /* SPLBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPLBannerViewController.h; sourceTree = "<group>"; };
+		FBCD317F16890E6F0005C11B /* SPLBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPLBannerViewController.m; sourceTree = "<group>"; };
+		FBF9CC9C1675376F00334CFD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FBF9CC9F1675376F00334CFD /* display.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = display.png; sourceTree = "<group>"; };
+		FBF9CCA41675391900334CFD /* DS-DIGI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DS-DIGI.TTF"; sourceTree = "<group>"; };
+		FBF9CCA6167563CC00334CFD /* digital7mono.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = digital7mono.ttf; path = TalkTimer/digital7mono.ttf; sourceTree = "<group>"; };
+		FBF9CCA81676FBAF00334CFD /* resume.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resume.png; sourceTree = "<group>"; };
+		FBF9CCA91676FBAF00334CFD /* resumeOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resumeOn.png; sourceTree = "<group>"; };
+		FBF9CCB5167AF78A00334CFD /* SPLSoundPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPLSoundPlayer.m; sourceTree = "<group>"; };
+		FBF9CCB8167AF83D00334CFD /* SPLSoundPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPLSoundPlayer.h; sourceTree = "<group>"; };
+		FBF9CCB9167AFCA400334CFD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB844D82168A859600D6DE31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0CB6BB168FE0C400263D0B /* MessageUI.framework in Frameworks */,
+				FB844D83168A859600D6DE31 /* iAd.framework in Frameworks */,
+				FB844D84168A859600D6DE31 /* AudioToolbox.framework in Frameworks */,
+				FB844D85168A859600D6DE31 /* UIKit.framework in Frameworks */,
+				FB844D86168A859600D6DE31 /* Foundation.framework in Frameworks */,
+				FB844D87168A859600D6DE31 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8FA1491669993600FCC322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB0CB6BA168FE0B800263D0B /* MessageUI.framework in Frameworks */,
+				FBCD3179168816000005C11B /* iAd.framework in Frameworks */,
+				FBF9CCBC167AFCD600334CFD /* AudioToolbox.framework in Frameworks */,
+				FB8FA1511669993600FCC322 /* UIKit.framework in Frameworks */,
+				FB8FA1531669993600FCC322 /* Foundation.framework in Frameworks */,
+				FB8FA1551669993600FCC322 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8FA1691669993600FCC322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8FA16F1669993600FCC322 /* SenTestingKit.framework in Frameworks */,
+				FB8FA1701669993600FCC322 /* UIKit.framework in Frameworks */,
+				FB8FA1711669993600FCC322 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB98CDC71692D9F4000DD0B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB98CDC81692D9F4000DD0B1 /* MessageUI.framework in Frameworks */,
+				FB98CDC91692D9F4000DD0B1 /* iAd.framework in Frameworks */,
+				FB98CDCA1692D9F4000DD0B1 /* AudioToolbox.framework in Frameworks */,
+				FB98CDCB1692D9F4000DD0B1 /* UIKit.framework in Frameworks */,
+				FB98CDCC1692D9F4000DD0B1 /* Foundation.framework in Frameworks */,
+				FB98CDCD1692D9F4000DD0B1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB3BFF10167D379E0019BB3B /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				FB3BFF1D167E366F0019BB3B /* endingBell.aif */,
+				FB3BFF11167D37C80019BB3B /* downclick.aif */,
+				FB3BFF12167D37C90019BB3B /* pingclick.aif */,
+				FB3BFF13167D37C90019BB3B /* upclick.aif */,
+			);
+			name = Sounds;
+			path = TalkTimer;
+			sourceTree = "<group>";
+		};
+		FB8FA1411669993600FCC322 = {
+			isa = PBXGroup;
+			children = (
+				FB8FA1621669993600FCC322 /* MainStoryboard.storyboard */,
+				FBB24395168E150C00B7D06C /* SPLLabeledPickerView.h */,
+				FBB24396168E150C00B7D06C /* SPLLabeledPickerView.m */,
+				FB9C703C168BF8BD005DD1AE /* iTunesArtwork.png */,
+				FB9C703D168BF8BD005DD1AE /* iTunesArtwork@2x.png */,
+				FB3BFF24167E7A3B0019BB3B /* SPLTimerClient.h */,
+				FB9C7024168BDED4005DD1AE /* Resources */,
+				FB8FA1561669993600FCC322 /* TalkTimer */,
+				FB8FA1741669993600FCC322 /* TalkTimerTests */,
+				FB8FA14F1669993600FCC322 /* Frameworks */,
+				FB8FA14D1669993600FCC322 /* Products */,
+				FB98CDFC1692D9F6000DD0B1 /* Timer To Go copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		FB8FA14D1669993600FCC322 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB8FA14C1669993600FCC322 /* Timer To Go Free.app */,
+				FB8FA16D1669993600FCC322 /* TimerToGoTests.octest */,
+				FB844DAC168A859600D6DE31 /* Timer To Go.app */,
+				FB98CDFA1692D9F4000DD0B1 /* Timer To Go.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB8FA14F1669993600FCC322 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB0CB6B8168FE09A00263D0B /* MessageUI.framework */,
+				FBCD3176168815C90005C11B /* iAd.framework */,
+				FBF9CCB9167AFCA400334CFD /* AudioToolbox.framework */,
+				FB8FA1501669993600FCC322 /* UIKit.framework */,
+				FB8FA1521669993600FCC322 /* Foundation.framework */,
+				FB8FA1541669993600FCC322 /* CoreGraphics.framework */,
+				FB8FA16E1669993600FCC322 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB8FA1561669993600FCC322 /* TalkTimer */ = {
+			isa = PBXGroup;
+			children = (
+				FBBEE352168E848C00F390C3 /* SPLAboutViewController.h */,
+				FBBEE353168E848C00F390C3 /* SPLAboutViewController.m */,
+				FB8FA15F1669993600FCC322 /* SPLAppDelegate.h */,
+				FB8FA1601669993600FCC322 /* SPLAppDelegate.m */,
+				FBC8DECC16803F6100B42140 /* ProgressIndicator.h */,
+				FBC8DECD16803F6100B42140 /* ProgressIndicator.m */,
+				FBC8DED11682DB4500B42140 /* UIColor+Colors.h */,
+				FBC8DED21682DB4500B42140 /* UIColor+Colors.m */,
+				FB8FA1651669993600FCC322 /* InvervalSettingViewController.h */,
+				FB8FA1661669993600FCC322 /* InvervalSettingViewController.m */,
+				FBCD317E16890E6F0005C11B /* SPLBannerViewController.h */,
+				FBCD317F16890E6F0005C11B /* SPLBannerViewController.m */,
+				FB8FA189166B007A00FCC322 /* SPLCountDownViewController.h */,
+				FB8FA18A166B007A00FCC322 /* SPLCountDownViewController.m */,
+				FBF9CCB5167AF78A00334CFD /* SPLSoundPlayer.m */,
+				FBF9CCB8167AF83D00334CFD /* SPLSoundPlayer.h */,
+				FB8FA1571669993600FCC322 /* Supporting Files */,
+				FB3BFF20167E6E6A0019BB3B /* SPLTimeManager.h */,
+				FB3BFF21167E6E6A0019BB3B /* SPLTimeManager.m */,
+			);
+			path = TalkTimer;
+			sourceTree = "<group>";
+		};
+		FB8FA1571669993600FCC322 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB9C7035168BE51C005DD1AE /* TimerToGoFree-Info.plist */,
+				FB82BB54168C23E7009C05AB /* TimerToGoPlus-Info.plist */,
+				FB8FA1591669993600FCC322 /* InfoPlist.strings */,
+				FB8FA15C1669993600FCC322 /* main.m */,
+				FB8FA15E1669993600FCC322 /* TimerToGo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB8FA1741669993600FCC322 /* TalkTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB8FA17A1669993600FCC322 /* TalkTimerTests.h */,
+				FB8FA17B1669993700FCC322 /* TalkTimerTests.m */,
+				FB8FA1751669993600FCC322 /* Supporting Files */,
+				FBC8DEC61680200700B42140 /* SPLTimeManagerTests.h */,
+				FBC8DEC71680200700B42140 /* SPLTimeManagerTests.m */,
+			);
+			path = TalkTimerTests;
+			sourceTree = "<group>";
+		};
+		FB8FA1751669993600FCC322 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB8FA1761669993600FCC322 /* TimerToGoTests-Info.plist */,
+				FB8FA1771669993600FCC322 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB9C7024168BDED4005DD1AE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7E5AC2711DACA2920064FFF5 /* Images.xcassets */,
+				7E5AC26F1DAC9DE50064FFF5 /* FullVersion */,
+				FBF9CCA6167563CC00334CFD /* digital7mono.ttf */,
+				FBC8DED416856E3800B42140 /* Apple LiGothic Medium.ttf */,
+				FBF9CC9A1675374D00334CFD /* Images */,
+				FB3BFF10167D379E0019BB3B /* Sounds */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FBF9CC9A1675374D00334CFD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FBBEE348168E635700F390C3 /* infoIcon.png */,
+				FBBEE349168E635700F390C3 /* infoIcon@2x.png */,
+				FBB44FF5166C780700CEBE04 /* StartButton.png */,
+				FBB44FF6166C780700CEBE04 /* StartButton@2x.png */,
+				FBCD317A168908880005C11B /* TTBanner.png */,
+				FBCD317B168908880005C11B /* TTBanner@2x.png */,
+				FBC8DECF1682BB5F00B42140 /* progressCircle.png */,
+				FB3BFF19167D85460019BB3B /* Default.png */,
+				FB3BFF1A167D85470019BB3B /* Default@2x.png */,
+				FBF9CCA41675391900334CFD /* DS-DIGI.TTF */,
+				FBF9CCA81676FBAF00334CFD /* resume.png */,
+				FBF9CCA91676FBAF00334CFD /* resumeOn.png */,
+				FBB44FEA166C6C0100CEBE04 /* AppBackGround.png */,
+				FBB44FE9166C6C0100CEBE04 /* AppBackGround@2x.png */,
+				FBF9CC9C1675376F00334CFD /* Default-568h@2x.png */,
+				FBF9CC9F1675376F00334CFD /* display.png */,
+				FB6874A816744F7200CD5448 /* settinicon.png */,
+				FBB44FF916742EEF00CEBE04 /* CancelButton.png */,
+				FBB44FFA16742EF000CEBE04 /* CancelOn.png */,
+				FBB44FFB16742EF000CEBE04 /* ClockBackground.png */,
+				FBB44FFC16742EF000CEBE04 /* ClockBackground@2x.png */,
+				FBB44FFD16742EF000CEBE04 /* GreenButton.png */,
+				FBB44FFE16742EF000CEBE04 /* GreenButtonDown.png */,
+				FBB44FFF16742EF000CEBE04 /* Pause.png */,
+				FBB4500016742EF000CEBE04 /* PauseOn.png */,
+			);
+			name = Images;
+			path = TalkTimer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB844D76168A859600D6DE31 /* Timer To Go */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB844DA9168A859600D6DE31 /* Build configuration list for PBXNativeTarget "Timer To Go" */;
+			buildPhases = (
+				FB844D77168A859600D6DE31 /* Sources */,
+				FB844D82168A859600D6DE31 /* Frameworks */,
+				FB844D88168A859600D6DE31 /* Resources */,
+				FB844DA8168A859600D6DE31 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Timer To Go";
+			productName = TalkTimer;
+			productReference = FB844DAC168A859600D6DE31 /* Timer To Go.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB8FA14B1669993600FCC322 /* Timer To Go Free */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8FA17F1669993700FCC322 /* Build configuration list for PBXNativeTarget "Timer To Go Free" */;
+			buildPhases = (
+				FB8FA1481669993600FCC322 /* Sources */,
+				FB8FA1491669993600FCC322 /* Frameworks */,
+				FB8FA14A1669993600FCC322 /* Resources */,
+				FB844D74168A815F00D6DE31 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Timer To Go Free";
+			productName = TalkTimer;
+			productReference = FB8FA14C1669993600FCC322 /* Timer To Go Free.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB8FA16C1669993600FCC322 /* TimerToGoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8FA1821669993700FCC322 /* Build configuration list for PBXNativeTarget "TimerToGoTests" */;
+			buildPhases = (
+				FB8FA1681669993600FCC322 /* Sources */,
+				FB8FA1691669993600FCC322 /* Frameworks */,
+				FB8FA16A1669993600FCC322 /* Resources */,
+				FB8FA16B1669993600FCC322 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB8FA1731669993600FCC322 /* PBXTargetDependency */,
+			);
+			name = TimerToGoTests;
+			productName = TalkTimerTests;
+			productReference = FB8FA16D1669993600FCC322 /* TimerToGoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		FB98CDBA1692D9F4000DD0B1 /* TimerToGo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB98CDF71692D9F4000DD0B1 /* Build configuration list for PBXNativeTarget "TimerToGo" */;
+			buildPhases = (
+				FB98CDBB1692D9F4000DD0B1 /* Sources */,
+				FB98CDC71692D9F4000DD0B1 /* Frameworks */,
+				FB98CDCE1692D9F4000DD0B1 /* Resources */,
+				FB98CDF61692D9F4000DD0B1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimerToGo;
+			productName = TalkTimer;
+			productReference = FB98CDFA1692D9F4000DD0B1 /* Timer To Go.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB8FA1431669993600FCC322 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SPL;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Shannon;
+				TargetAttributes = {
+					FB844D76168A859600D6DE31 = {
+						DevelopmentTeam = Q3YWELPZJ9;
+					};
+					FB8FA14B1669993600FCC322 = {
+						DevelopmentTeam = Q3YWELPZJ9;
+					};
+					FB8FA16C1669993600FCC322 = {
+						DevelopmentTeam = Q3YWELPZJ9;
+					};
+					FB98CDBA1692D9F4000DD0B1 = {
+						DevelopmentTeam = Q3YWELPZJ9;
+					};
+				};
+			};
+			buildConfigurationList = FB8FA1461669993600FCC322 /* Build configuration list for PBXProject "TimerToGo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FB8FA1411669993600FCC322;
+			productRefGroup = FB8FA14D1669993600FCC322 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB8FA14B1669993600FCC322 /* Timer To Go Free */,
+				FB8FA16C1669993600FCC322 /* TimerToGoTests */,
+				FB844D76168A859600D6DE31 /* Timer To Go */,
+				FB98CDBA1692D9F4000DD0B1 /* TimerToGo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB844D88168A859600D6DE31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB844D89168A859600D6DE31 /* InfoPlist.strings in Resources */,
+				FB844D8A168A859600D6DE31 /* MainStoryboard.storyboard in Resources */,
+				FB844D8B168A859600D6DE31 /* AppBackGround@2x.png in Resources */,
+				FB844D8C168A859600D6DE31 /* AppBackGround.png in Resources */,
+				FB844D8D168A859600D6DE31 /* StartButton.png in Resources */,
+				FB844D8E168A859600D6DE31 /* StartButton@2x.png in Resources */,
+				FB844D8F168A859600D6DE31 /* CancelButton.png in Resources */,
+				FB844D90168A859600D6DE31 /* CancelOn.png in Resources */,
+				FB844D91168A859600D6DE31 /* ClockBackground.png in Resources */,
+				FB844D92168A859600D6DE31 /* ClockBackground@2x.png in Resources */,
+				FB844D93168A859600D6DE31 /* GreenButton.png in Resources */,
+				FB844D94168A859600D6DE31 /* GreenButtonDown.png in Resources */,
+				FB844D95168A859600D6DE31 /* Pause.png in Resources */,
+				FB844D96168A859600D6DE31 /* PauseOn.png in Resources */,
+				FB844D97168A859600D6DE31 /* settinicon.png in Resources */,
+				FB844D98168A859600D6DE31 /* Default-568h@2x.png in Resources */,
+				FB844D99168A859600D6DE31 /* display.png in Resources */,
+				FB844D9A168A859600D6DE31 /* DS-DIGI.TTF in Resources */,
+				FB844D9B168A859600D6DE31 /* digital7mono.ttf in Resources */,
+				FB844D9C168A859600D6DE31 /* resume.png in Resources */,
+				FB844D9D168A859600D6DE31 /* resumeOn.png in Resources */,
+				FB844D9E168A859600D6DE31 /* downclick.aif in Resources */,
+				FB844D9F168A859600D6DE31 /* pingclick.aif in Resources */,
+				FB844DA0168A859600D6DE31 /* upclick.aif in Resources */,
+				FB844DA1168A859600D6DE31 /* Default.png in Resources */,
+				FB844DA2168A859600D6DE31 /* Default@2x.png in Resources */,
+				FB844DA3168A859600D6DE31 /* endingBell.aif in Resources */,
+				FB844DA4168A859600D6DE31 /* progressCircle.png in Resources */,
+				FB844DA5168A859600D6DE31 /* Apple LiGothic Medium.ttf in Resources */,
+				FB844DA6168A859600D6DE31 /* TTBanner.png in Resources */,
+				FB844DA7168A859600D6DE31 /* TTBanner@2x.png in Resources */,
+				FB9C703E168BF8BD005DD1AE /* iTunesArtwork.png in Resources */,
+				FB9C703F168BF8BD005DD1AE /* iTunesArtwork@2x.png in Resources */,
+				FBBEE34D168E654C00F390C3 /* infoIcon.png in Resources */,
+				FBBEE34E168E655100F390C3 /* infoIcon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8FA14A1669993600FCC322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8FA15B1669993600FCC322 /* InfoPlist.strings in Resources */,
+				FB8FA1641669993600FCC322 /* MainStoryboard.storyboard in Resources */,
+				FBB44FEB166C6C0100CEBE04 /* AppBackGround@2x.png in Resources */,
+				FBB44FEC166C6C0100CEBE04 /* AppBackGround.png in Resources */,
+				FBB44FF7166C780700CEBE04 /* StartButton.png in Resources */,
+				FBB44FF8166C780700CEBE04 /* StartButton@2x.png in Resources */,
+				FBB4500216742EF000CEBE04 /* CancelButton.png in Resources */,
+				FBB4500316742EF000CEBE04 /* CancelOn.png in Resources */,
+				FBB4500416742EF000CEBE04 /* ClockBackground.png in Resources */,
+				7E5AC2701DAC9DE50064FFF5 /* FullVersion in Resources */,
+				FBB4500516742EF000CEBE04 /* ClockBackground@2x.png in Resources */,
+				FBB4500616742EF000CEBE04 /* GreenButton.png in Resources */,
+				FBB4500716742EF000CEBE04 /* GreenButtonDown.png in Resources */,
+				FBB4500816742EF000CEBE04 /* Pause.png in Resources */,
+				FBB4500916742EF000CEBE04 /* PauseOn.png in Resources */,
+				FB6874A916744F7200CD5448 /* settinicon.png in Resources */,
+				FBF9CCA01675376F00334CFD /* Default-568h@2x.png in Resources */,
+				FBF9CCA31675376F00334CFD /* display.png in Resources */,
+				FBF9CCA51675391900334CFD /* DS-DIGI.TTF in Resources */,
+				FBF9CCA7167563CC00334CFD /* digital7mono.ttf in Resources */,
+				FBF9CCAA1676FBAF00334CFD /* resume.png in Resources */,
+				FBF9CCAB1676FBAF00334CFD /* resumeOn.png in Resources */,
+				FB3BFF14167D37C90019BB3B /* downclick.aif in Resources */,
+				FB3BFF15167D37C90019BB3B /* pingclick.aif in Resources */,
+				FB3BFF16167D37C90019BB3B /* upclick.aif in Resources */,
+				FB3BFF1B167D85470019BB3B /* Default.png in Resources */,
+				FB3BFF1C167D85470019BB3B /* Default@2x.png in Resources */,
+				FB3BFF1E167E366F0019BB3B /* endingBell.aif in Resources */,
+				FBC8DED01682BB5F00B42140 /* progressCircle.png in Resources */,
+				FBC8DED516856E3900B42140 /* Apple LiGothic Medium.ttf in Resources */,
+				FBCD317C168908890005C11B /* TTBanner.png in Resources */,
+				FBCD317D168908890005C11B /* TTBanner@2x.png in Resources */,
+				FBBEE34A168E635700F390C3 /* infoIcon.png in Resources */,
+				FBBEE34B168E635700F390C3 /* infoIcon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8FA16A1669993600FCC322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8FA1791669993600FCC322 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB98CDCE1692D9F4000DD0B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB98CDD11692D9F4000DD0B1 /* InfoPlist.strings in Resources */,
+				FB98CDD21692D9F4000DD0B1 /* MainStoryboard.storyboard in Resources */,
+				FB98CDD31692D9F4000DD0B1 /* AppBackGround@2x.png in Resources */,
+				FB98CDD41692D9F4000DD0B1 /* AppBackGround.png in Resources */,
+				FB98CDD51692D9F4000DD0B1 /* StartButton.png in Resources */,
+				FB98CDD61692D9F4000DD0B1 /* StartButton@2x.png in Resources */,
+				FB98CDD71692D9F4000DD0B1 /* CancelButton.png in Resources */,
+				FB98CDD81692D9F4000DD0B1 /* CancelOn.png in Resources */,
+				FB98CDD91692D9F4000DD0B1 /* ClockBackground.png in Resources */,
+				7E5AC2721DACA2920064FFF5 /* Images.xcassets in Resources */,
+				FB98CDDA1692D9F4000DD0B1 /* ClockBackground@2x.png in Resources */,
+				FB98CDDB1692D9F4000DD0B1 /* GreenButton.png in Resources */,
+				FB98CDDC1692D9F4000DD0B1 /* GreenButtonDown.png in Resources */,
+				FB98CDDD1692D9F4000DD0B1 /* Pause.png in Resources */,
+				FB98CDDE1692D9F4000DD0B1 /* PauseOn.png in Resources */,
+				FB98CDDF1692D9F4000DD0B1 /* settinicon.png in Resources */,
+				FB98CDE01692D9F4000DD0B1 /* Default-568h@2x.png in Resources */,
+				FB98CDE11692D9F4000DD0B1 /* display.png in Resources */,
+				FB98CDE21692D9F4000DD0B1 /* DS-DIGI.TTF in Resources */,
+				FB98CDE31692D9F4000DD0B1 /* digital7mono.ttf in Resources */,
+				FB98CDE41692D9F4000DD0B1 /* resume.png in Resources */,
+				FB98CDE51692D9F4000DD0B1 /* resumeOn.png in Resources */,
+				FB98CDE61692D9F4000DD0B1 /* downclick.aif in Resources */,
+				FB98CDE71692D9F4000DD0B1 /* pingclick.aif in Resources */,
+				FB98CDE81692D9F4000DD0B1 /* upclick.aif in Resources */,
+				FB98CDE91692D9F4000DD0B1 /* Default.png in Resources */,
+				FB98CDEA1692D9F4000DD0B1 /* Default@2x.png in Resources */,
+				FB98CDEB1692D9F4000DD0B1 /* endingBell.aif in Resources */,
+				FB98CDEC1692D9F4000DD0B1 /* progressCircle.png in Resources */,
+				FB98CDED1692D9F4000DD0B1 /* Apple LiGothic Medium.ttf in Resources */,
+				FB98CDEE1692D9F4000DD0B1 /* TTBanner.png in Resources */,
+				FB98CDEF1692D9F4000DD0B1 /* TTBanner@2x.png in Resources */,
+				FB98CDF21692D9F4000DD0B1 /* iTunesArtwork.png in Resources */,
+				FB98CDF31692D9F4000DD0B1 /* iTunesArtwork@2x.png in Resources */,
+				FB98CDF41692D9F4000DD0B1 /* infoIcon.png in Resources */,
+				FB98CDF51692D9F4000DD0B1 /* infoIcon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FB844D74168A815F00D6DE31 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+		FB844DA8168A859600D6DE31 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+		FB8FA16B1669993600FCC322 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		FB98CDF61692D9F4000DD0B1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB844D77168A859600D6DE31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB844D79168A859600D6DE31 /* main.m in Sources */,
+				FB844D7A168A859600D6DE31 /* SPLAppDelegate.m in Sources */,
+				FB844D7B168A859600D6DE31 /* InvervalSettingViewController.m in Sources */,
+				FB844D7C168A859600D6DE31 /* SPLCountDownViewController.m in Sources */,
+				FB844D7D168A859600D6DE31 /* SPLSoundPlayer.m in Sources */,
+				FB844D7E168A859600D6DE31 /* SPLTimeManager.m in Sources */,
+				FB844D7F168A859600D6DE31 /* ProgressIndicator.m in Sources */,
+				FB844D80168A859600D6DE31 /* UIColor+Colors.m in Sources */,
+				FB844D81168A859600D6DE31 /* SPLBannerViewController.m in Sources */,
+				FBB24398168E1A1800B7D06C /* SPLLabeledPickerView.m in Sources */,
+				FBBEE355168E848C00F390C3 /* SPLAboutViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8FA1481669993600FCC322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8FA15D1669993600FCC322 /* main.m in Sources */,
+				FB8FA1611669993600FCC322 /* SPLAppDelegate.m in Sources */,
+				FB8FA1671669993600FCC322 /* InvervalSettingViewController.m in Sources */,
+				FB8FA18B166B007B00FCC322 /* SPLCountDownViewController.m in Sources */,
+				FBF9CCB6167AF78B00334CFD /* SPLSoundPlayer.m in Sources */,
+				FB3BFF22167E6E6B0019BB3B /* SPLTimeManager.m in Sources */,
+				FBC8DECE16803F6100B42140 /* ProgressIndicator.m in Sources */,
+				FBC8DED31682DB4500B42140 /* UIColor+Colors.m in Sources */,
+				FBCD318016890E700005C11B /* SPLBannerViewController.m in Sources */,
+				FBB24397168E150C00B7D06C /* SPLLabeledPickerView.m in Sources */,
+				FBBEE354168E848C00F390C3 /* SPLAboutViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8FA1681669993600FCC322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB05DFD6167EC61800E1E243 /* SPLTimeManager.m in Sources */,
+				FB8FA17C1669993700FCC322 /* TalkTimerTests.m in Sources */,
+				FBC8DEC81680200700B42140 /* SPLTimeManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB98CDBB1692D9F4000DD0B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB98CDBC1692D9F4000DD0B1 /* main.m in Sources */,
+				FB98CDBD1692D9F4000DD0B1 /* SPLAppDelegate.m in Sources */,
+				FB98CDBE1692D9F4000DD0B1 /* InvervalSettingViewController.m in Sources */,
+				FB98CDBF1692D9F4000DD0B1 /* SPLCountDownViewController.m in Sources */,
+				FB98CDC01692D9F4000DD0B1 /* SPLSoundPlayer.m in Sources */,
+				FB98CDC11692D9F4000DD0B1 /* SPLTimeManager.m in Sources */,
+				FB98CDC21692D9F4000DD0B1 /* ProgressIndicator.m in Sources */,
+				FB98CDC31692D9F4000DD0B1 /* UIColor+Colors.m in Sources */,
+				FB98CDC41692D9F4000DD0B1 /* SPLBannerViewController.m in Sources */,
+				FB98CDC51692D9F4000DD0B1 /* SPLLabeledPickerView.m in Sources */,
+				FB98CDC61692D9F4000DD0B1 /* SPLAboutViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB8FA1731669993600FCC322 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB8FA14B1669993600FCC322 /* Timer To Go Free */;
+			targetProxy = FB8FA1721669993600FCC322 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB8FA1591669993600FCC322 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB8FA15A1669993600FCC322 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FB8FA1621669993600FCC322 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB8FA1631669993600FCC322 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			path = TalkTimer;
+			sourceTree = "<group>";
+		};
+		FB8FA1771669993600FCC322 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB8FA1781669993600FCC322 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB844DAA168A859600D6DE31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEVELOPMENT_TEAM = Q3YWELPZJ9;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TalkTimer/TimerToGo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					FULL_VERSION,
+				);
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = FULL_VERSION;
+				INFOPLIST_FILE = "TimerToGoPlus-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IsPaid = True;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/library\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = build;
+				VALIDATE_PRODUCT = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FB844DAB168A859600D6DE31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEVELOPMENT_TEAM = Q3YWELPZJ9;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TalkTimer/TimerToGo-Prefix.pch";
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = FULL_VERSION;
+				INFOPLIST_FILE = "TimerToGoPlus-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IsPaid = True;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/library\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = build;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FB8FA17D1669993700FCC322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FB8FA17E1669993700FCC322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB8FA1801669993700FCC322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEVELOPMENT_TEAM = Q3YWELPZJ9;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TalkTimer/TimerToGo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					FREE_VERSION,
+				);
+				INFOPLIST_FILE = "TalkTimer/TimerToGoFree-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/library\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FB8FA1811669993700FCC322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEVELOPMENT_TEAM = Q3YWELPZJ9;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TalkTimer/TimerToGo-Prefix.pch";
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = FREE_VERSION;
+				INFOPLIST_FILE = "TalkTimer/TimerToGoFree-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/library\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FB8FA1831669993700FCC322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TalkTimer.app/TalkTimer";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEVELOPMENT_TEAM = Q3YWELPZJ9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TalkTimer/TalkTimer-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "TalkTimerTests/TimerToGoTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/library/**\"/**",
+					"\"$(SRCROOT)/library\"",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(SRCROOT)/library/libOCMock.a\"",
+					"-ObjC",
+				);
+				PRODUCT_NAME = TimerToGoTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FB8FA1841669993700FCC322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TalkTimer.app/TalkTimer";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEVELOPMENT_TEAM = Q3YWELPZJ9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TalkTimer/TalkTimer-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "TalkTimerTests/TimerToGoTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/library/**\"/**",
+					"\"$(SRCROOT)/library\"",
+				);
+				OTHER_LDFLAGS = (
+					"-force_load",
+					"\"$(SRCROOT)/library/libOCMock.a\"",
+					"-ObjC",
+				);
+				PRODUCT_NAME = TimerToGoTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		FB98CDF81692D9F4000DD0B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEVELOPMENT_TEAM = Q3YWELPZJ9;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TalkTimer/TimerToGo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					FULL_VERSION,
+				);
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = FULL_VERSION;
+				INFOPLIST_FILE = "$(SRCROOT)/TimerToGoPlus-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IsPaid = True;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/library\"",
+				);
+				PRODUCT_NAME = "Timer To Go";
+				SYMROOT = build;
+				VALIDATE_PRODUCT = NO;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FB98CDF91692D9F4000DD0B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEVELOPMENT_TEAM = Q3YWELPZJ9;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TalkTimer/TimerToGo-Prefix.pch";
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = FULL_VERSION;
+				INFOPLIST_FILE = "$(SRCROOT)/TimerToGoPlus-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IsPaid = True;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/library\"",
+				);
+				PRODUCT_NAME = "Timer To Go";
+				SYMROOT = build;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB844DA9168A859600D6DE31 /* Build configuration list for PBXNativeTarget "Timer To Go" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB844DAA168A859600D6DE31 /* Debug */,
+				FB844DAB168A859600D6DE31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB8FA1461669993600FCC322 /* Build configuration list for PBXProject "TimerToGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8FA17D1669993700FCC322 /* Debug */,
+				FB8FA17E1669993700FCC322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB8FA17F1669993700FCC322 /* Build configuration list for PBXNativeTarget "Timer To Go Free" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8FA1801669993700FCC322 /* Debug */,
+				FB8FA1811669993700FCC322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB8FA1821669993700FCC322 /* Build configuration list for PBXNativeTarget "TimerToGoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8FA1831669993700FCC322 /* Debug */,
+				FB8FA1841669993700FCC322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB98CDF71692D9F4000DD0B1 /* Build configuration list for PBXNativeTarget "TimerToGo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB98CDF81692D9F4000DD0B1 /* Debug */,
+				FB98CDF91692D9F4000DD0B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB8FA1431669993600FCC322 /* Project object */;
+}

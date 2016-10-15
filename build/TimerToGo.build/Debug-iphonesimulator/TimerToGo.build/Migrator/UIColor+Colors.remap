@@ -1,0 +1,24 @@
+[
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/TalkTimer/UIColor+Colors.m",
+  "offset": 2530,
+  "remove": 1,
+ },
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/TalkTimer/UIColor+Colors.m",
+  "offset": 2535,
+  "remove": 9,
+  "text": ".CGColor",
+ },
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/TalkTimer/UIColor+Colors.m",
+  "offset": 2597,
+  "remove": 1,
+ },
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/TalkTimer/UIColor+Colors.m",
+  "offset": 2602,
+  "remove": 9,
+  "text": ".CGColor",
+ },
+]

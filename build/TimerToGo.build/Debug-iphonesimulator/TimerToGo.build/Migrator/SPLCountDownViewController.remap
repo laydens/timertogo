@@ -1,0 +1,25 @@
+[
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/TalkTimer/SPLSoundPlayer.h",
+  "offset": 247,
+  "remove": 2,
+  "text": "instancetype",
+ },
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/ProgressIndicator.h",
+  "offset": 296,
+  "remove": 5,
+  "text": "NS_ENUM(unsigned int, Colors) ",
+ },
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/ProgressIndicator.h",
+  "offset": 320,
+  "remove": 7,
+ },
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/TalkTimer/SPLBannerViewController.h",
+  "offset": 453,
+  "remove": 2,
+  "text": "instancetype",
+ },
+]

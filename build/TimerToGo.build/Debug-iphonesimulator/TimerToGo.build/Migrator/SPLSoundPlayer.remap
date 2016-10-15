@@ -1,0 +1,47 @@
+[
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/TalkTimer/SPLSoundPlayer.m",
+  "offset": 310,
+  "remove": 2,
+  "text": "instancetype",
+ },
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/TalkTimer/SPLSoundPlayer.m",
+  "offset": 376,
+  "remove": 1,
+ },
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/TalkTimer/SPLSoundPlayer.m",
+  "offset": 381,
+  "remove": 8,
+  "text": ".length",
+ },
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/TalkTimer/SPLSoundPlayer.m",
+  "offset": 467,
+  "remove": 2,
+  "text": "instancetype",
+ },
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/TalkTimer/SPLSoundPlayer.m",
+  "offset": 602,
+  "remove": 1,
+ },
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/TalkTimer/SPLSoundPlayer.m",
+  "offset": 624,
+  "remove": 14,
+  "text": ".resourcePath",
+ },
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/TalkTimer/SPLSoundPlayer.h",
+  "offset": 247,
+  "remove": 2,
+  "text": "instancetype",
+ },
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/TalkTimer/SPLSoundPlayer.h",
+  "offset": 280,
+  "text": " NS_DESIGNATED_INITIALIZER",
+ },
+]

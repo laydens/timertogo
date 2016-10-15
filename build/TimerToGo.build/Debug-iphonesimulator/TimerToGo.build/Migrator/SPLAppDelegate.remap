@@ -1,0 +1,13 @@
+[
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/TalkTimer/SPLAppDelegate.m",
+  "offset": 376,
+  "remove": 1,
+ },
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/TalkTimer/SPLAppDelegate.m",
+  "offset": 410,
+  "remove": 26,
+  "text": ".idleTimerDisabled =",
+ },
+]

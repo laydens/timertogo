@@ -1,0 +1,1069 @@
+TTimerToGo
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer\ To\ Go.app/Info.plist /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TimerToGoPlus-Info.plist
+cProcessPCH /var/folders/x0/9nfmyskj2tv4208tdvgjm4y80000gr/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TimerToGo-Prefix-hjklqfkabmfpxkhlaiqzeyqvqzgr/TimerToGo-Prefix.pch.pch TalkTimer/TimerToGo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/main.o /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLAppDelegate.o /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/InvervalSettingViewController.o /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/InvervalSettingViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLCountDownViewController.o /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLCountDownViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLSoundPlayer.o /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLSoundPlayer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLTimeManager.o /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLTimeManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/ProgressIndicator.o /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/ProgressIndicator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/UIColor+Colors.o /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/UIColor+Colors.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLBannerViewController.o /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLBannerViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLLabeledPickerView.o /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/SPLLabeledPickerView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLAboutViewController.o /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/SPLAboutViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer\ To\ Go.app/Timer\ To\ Go normal i386
+cGenerateDSYMFile /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer\ To\ Go.app.dSYM /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer\ To\ Go.app/Timer\ To\ Go
+cCpResource TalkTimer/Icon-Small.png build/Debug-iphonesimulator/Timer\ To\ Go.app/Icon-Small.png
+cCpResource TalkTimer/Icon-Small@2x.png build/Debug-iphonesimulator/Timer\ To\ Go.app/Icon-Small@2x.png
+cCopyStringsFile /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer\ To\ Go.app/en.lproj/InfoPlist.strings TalkTimer/en.lproj/InfoPlist.strings
+cCompileStoryboard /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/en.lproj/MainStoryboard.storyboard
+cCpResource TalkTimer/AppBackGround@2x.png build/Debug-iphonesimulator/Timer\ To\ Go.app/AppBackGround@2x.png
+cCpResource TalkTimer/AppBackGround.png build/Debug-iphonesimulator/Timer\ To\ Go.app/AppBackGround.png
+cCpResource TalkTimer/StartButton.png build/Debug-iphonesimulator/Timer\ To\ Go.app/StartButton.png
+cCpResource TalkTimer/StartButton@2x.png build/Debug-iphonesimulator/Timer\ To\ Go.app/StartButton@2x.png
+cCpResource TalkTimer/CancelButton.png build/Debug-iphonesimulator/Timer\ To\ Go.app/CancelButton.png
+cCpResource TalkTimer/CancelOn.png build/Debug-iphonesimulator/Timer\ To\ Go.app/CancelOn.png
+cCpResource TalkTimer/ClockBackground.png build/Debug-iphonesimulator/Timer\ To\ Go.app/ClockBackground.png
+cCpResource TalkTimer/ClockBackground@2x.png build/Debug-iphonesimulator/Timer\ To\ Go.app/ClockBackground@2x.png
+cCpResource TalkTimer/GreenButton.png build/Debug-iphonesimulator/Timer\ To\ Go.app/GreenButton.png
+cCpResource TalkTimer/GreenButtonDown.png build/Debug-iphonesimulator/Timer\ To\ Go.app/GreenButtonDown.png
+cCpResource TalkTimer/Pause.png build/Debug-iphonesimulator/Timer\ To\ Go.app/Pause.png
+cCpResource TalkTimer/PauseOn.png build/Debug-iphonesimulator/Timer\ To\ Go.app/PauseOn.png
+cCpResource TalkTimer/settinicon.png build/Debug-iphonesimulator/Timer\ To\ Go.app/settinicon.png
+cCpResource TalkTimer/Default-568h@2x.png build/Debug-iphonesimulator/Timer\ To\ Go.app/Default-568h@2x.png
+cCpResource TalkTimer/display.png build/Debug-iphonesimulator/Timer\ To\ Go.app/display.png
+cCpResource TalkTimer/DS-DIGI.TTF build/Debug-iphonesimulator/Timer\ To\ Go.app/DS-DIGI.TTF
+cCpResource TalkTimer/digital7mono.ttf build/Debug-iphonesimulator/Timer\ To\ Go.app/digital7mono.ttf
+cCpResource TalkTimer/resume.png build/Debug-iphonesimulator/Timer\ To\ Go.app/resume.png
+cCpResource TalkTimer/resumeOn.png build/Debug-iphonesimulator/Timer\ To\ Go.app/resumeOn.png
+cCpResource TalkTimer/downclick.aif build/Debug-iphonesimulator/Timer\ To\ Go.app/downclick.aif
+cCpResource TalkTimer/pingclick.aif build/Debug-iphonesimulator/Timer\ To\ Go.app/pingclick.aif
+cCpResource TalkTimer/upclick.aif build/Debug-iphonesimulator/Timer\ To\ Go.app/upclick.aif
+cCpResource TalkTimer/Default.png build/Debug-iphonesimulator/Timer\ To\ Go.app/Default.png
+cCpResource TalkTimer/Default@2x.png build/Debug-iphonesimulator/Timer\ To\ Go.app/Default@2x.png
+cCpResource TalkTimer/endingBell.aif build/Debug-iphonesimulator/Timer\ To\ Go.app/endingBell.aif
+cCpResource TalkTimer/progressCircle.png build/Debug-iphonesimulator/Timer\ To\ Go.app/progressCircle.png
+cCpResource TalkTimer/Apple\ LiGothic\ Medium.ttf build/Debug-iphonesimulator/Timer\ To\ Go.app/Apple\ LiGothic\ Medium.ttf
+cCpResource TalkTimer/TTBanner.png build/Debug-iphonesimulator/Timer\ To\ Go.app/TTBanner.png
+cCpResource TalkTimer/TTBanner@2x.png build/Debug-iphonesimulator/Timer\ To\ Go.app/TTBanner@2x.png
+cCpResource FullVersion/Icon.png build/Debug-iphonesimulator/Timer\ To\ Go.app/Icon.png
+cCpResource FullVersion/Icon@2x.png build/Debug-iphonesimulator/Timer\ To\ Go.app/Icon@2x.png
+cCpResource iTunesArtwork.png build/Debug-iphonesimulator/Timer\ To\ Go.app/iTunesArtwork.png
+cCpResource iTunesArtwork@2x.png build/Debug-iphonesimulator/Timer\ To\ Go.app/iTunesArtwork@2x.png
+cCpResource TalkTimer/infoIcon.png build/Debug-iphonesimulator/Timer\ To\ Go.app/infoIcon.png
+cCpResource TalkTimer/infoIcon@2x.png build/Debug-iphonesimulator/Timer\ To\ Go.app/infoIcon@2x.png
+cPhaseScriptExecution Run\ Script /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Script-FB98CDF61692D9F4000DD0B1.sh
+cTouch /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer\ To\ Go.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c000000005349445B0000000000000198
+t1397310555
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c00000000531F226300000000000003B4
+t1394549347
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531F2267000000000000019E
+t1394549351
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000531F22680000000000904120
+t1394549352
+s9453856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000534944330000000000446820
+t1397310515
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000531F2268000000000088D8C0
+t1394549352
+s8968384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+c00000000531F226900000000002E5520
+t1394549353
+s3036448
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c00000000531F226B0000000001F1DE10
+t1394549355
+s32628240
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/iAd.framework/iAd
+c00000000531F226800000000000DEA30
+t1394549352
+s911920
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/FullVersion/Icon.png
+c0000000050DF225200000000000026CF
+t1356800594
+s9935
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/FullVersion/Icon@2x.png
+c0000000050DF229D000000000000401C
+t1356800669
+s16412
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/ProgressIndicator.m
+c0000000050E2835E00000000000012D9
+t1357022046
+s4825
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/SPLAboutViewController.m
+c0000000050FA027B000000000000189C
+t1358561915
+s6300
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/SPLLabeledPickerView.m
+c0000000050DDDEB000000000000018ED
+t1356717744
+s6381
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/AppBackGround.png
+c0000000050BC3080000000000000033E
+t1354510464
+s830
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/AppBackGround@2x.png
+c0000000050BC2E6400000000000008E4
+t1354509924
+s2276
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/Apple LiGothic Medium.ttf
+c000000004E32BA630000000000588B4C
+t1311947363
+s5802828
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/CancelButton.png
+c0000000050C3F4730000000000000B6E
+t1355019379
+s2926
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/CancelOn.png
+c0000000050C3F5290000000000000D7F
+t1355019561
+s3455
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/ClockBackground.png
+c0000000050C3F34000000000000137AC
+t1355019072
+s79788
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/ClockBackground@2x.png
+c0000000050C3F2ED000000000005D1FE
+t1355018989
+s381438
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/DS-DIGI.TTF
+c0000000036B5ED140000000000005F80
+t917892372
+s24448
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/Default-568h@2x.png
+c0000000050DBC81000000000000556E9
+t1356580880
+s349929
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/Default.png
+c0000000050DBC860000000000001300C
+t1356580960
+s77836
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/Default@2x.png
+c0000000050DBC84800000000000496F0
+t1356580936
+s300784
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/GreenButton.png
+c0000000050C406D200000000000066B8
+t1355024082
+s26296
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/GreenButtonDown.png
+c0000000050C4073B0000000000006278
+t1355024187
+s25208
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/Icon-Small.png
+c0000000050DF22F60000000000001AAD
+t1356800758
+s6829
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/Icon-Small@2x.png
+c0000000050DF244300000000000027D6
+t1356801091
+s10198
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/InvervalSettingViewController.m
+c00000000542632280000000000001BB9
+t1411789352
+s7097
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/Pause.png
+c0000000050C3F4920000000000000AE3
+t1355019410
+s2787
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/PauseOn.png
+c0000000050C3F53E0000000000000C75
+t1355019582
+s3189
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLAppDelegate.m
+c0000000050DFA4BB000000000000081E
+t1356833979
+s2078
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLBannerViewController.m
+c0000000050F3482C0000000000000DE4
+t1358121004
+s3556
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLCountDownViewController.m
+c0000000050E228D70000000000003569
+t1356998871
+s13673
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLSoundPlayer.m
+c0000000050E0B49D00000000000004D4
+t1356903581
+s1236
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLTimeManager.m
+c0000000050E25D4700000000000009DA
+t1357012295
+s2522
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/StartButton.png
+c0000000050BC3DF2000000000000089D
+t1354513906
+s2205
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/StartButton@2x.png
+c0000000050BC3DC500000000000011E8
+t1354513861
+s4584
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/TTBanner.png
+c0000000050F3219A000000000000300B
+t1358111130
+s12299
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/TTBanner@2x.png
+c0000000050F3217A000000000000645E
+t1358111098
+s25694
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/TimerToGo-Prefix.pch
+c0000000050B961B60000000000000141
+t1354326454
+s321
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/UIColor+Colors.m
+c0000000050DB4E190000000000000D14
+t1356549657
+s3348
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/digital7mono.ttf
+c0000000048E5F28200000000000084C8
+t1223029378
+s33992
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/display.png
+c0000000050C435590000000000000B17
+t1355035993
+s2839
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/downclick.aif
+c0000000050CABB380000000000005722
+t1355463480
+s22306
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/en.lproj/InfoPlist.strings
+c0000000050B961B6000000000000002D
+t1354326454
+s45
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/en.lproj/MainStoryboard.storyboard
+c00000000542632290000000000008E77
+t1411789353
+s36471
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/endingBell.aif
+c0000000050CDFED800000000000BF036
+t1355677400
+s782390
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/infoIcon.png
+c0000000050DE2B93000000000000016C
+t1356737427
+s364
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/infoIcon@2x.png
+c0000000050DE2BA80000000000000236
+t1356737448
+s566
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/main.m
+c0000000050DE36410000000000000151
+t1356740161
+s337
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/pingclick.aif
+c0000000050CABB640000000000005722
+t1355463524
+s22306
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/progressCircle.png
+c0000000050D2830B0000000000005AD2
+t1355973387
+s23250
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/resume.png
+c0000000050C6C4130000000000000B5C
+t1355203603
+s2908
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/resumeOn.png
+c0000000050C6C3750000000000000D5F
+t1355203445
+s3423
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/settinicon.png
+c0000000050C417450000000000000483
+t1355028293
+s1155
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/upclick.aif
+c0000000050CABB4E0000000000005722
+t1355463502
+s22306
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TimerToGoPlus-Info.plist
+c0000000050E32C520000000000000616
+t1357065298
+s1558
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app
+t1411789747
+s1462
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app.dSYM
+t1411788992
+s102
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/AppBackGround.png
+t1405607949
+s830
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/AppBackGround@2x.png
+t1405607949
+s2276
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/Apple LiGothic Medium.ttf
+t1405607949
+s5802828
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/CancelButton.png
+t1405607949
+s2926
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/CancelOn.png
+t1405607949
+s3455
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/ClockBackground.png
+t1405607949
+s79788
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/ClockBackground@2x.png
+t1405607949
+s381438
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/DS-DIGI.TTF
+t1405607949
+s24448
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/Default-568h@2x.png
+t1405607949
+s349929
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/Default.png
+t1405607949
+s77836
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/Default@2x.png
+t1405607949
+s300784
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/GreenButton.png
+t1405607949
+s26296
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/GreenButtonDown.png
+t1405607949
+s25208
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/Icon-Small.png
+t1405607949
+s6829
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/Icon-Small@2x.png
+t1405607949
+s10198
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/Icon.png
+t1405607949
+s9935
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/Icon@2x.png
+t1405607949
+s16412
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/Info.plist
+t1407209302
+s1004
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/Pause.png
+t1405607949
+s2787
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/PauseOn.png
+t1405607949
+s3189
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/PkgInfo
+t1407209302
+s8
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/StartButton.png
+t1405607949
+s2205
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/StartButton@2x.png
+t1405607949
+s4584
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/TTBanner.png
+t1405607949
+s12299
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/TTBanner@2x.png
+t1405607949
+s25694
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/Timer To Go
+t1411789747
+s165552
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/digital7mono.ttf
+t1405607949
+s33992
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/display.png
+t1405607949
+s2839
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/downclick.aif
+t1405607949
+s22306
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/en.lproj/InfoPlist.strings
+t1405607949
+s42
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/en.lproj/MainStoryboard.storyboardc
+t1411789749
+s306
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/endingBell.aif
+t1405607949
+s782390
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/iTunesArtwork.png
+t1405607949
+s98788
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/iTunesArtwork@2x.png
+t1405607949
+s198262
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/infoIcon.png
+t1405607949
+s364
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/infoIcon@2x.png
+t1405607949
+s566
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/pingclick.aif
+t1405607949
+s22306
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/progressCircle.png
+t1405607949
+s23250
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/resume.png
+t1405607949
+s2908
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/resumeOn.png
+t1405607949
+s3423
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/settinicon.png
+t1405607949
+s1155
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/upclick.aif
+t1405607949
+s22306
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/InvervalSettingViewController.o
+t1411789747
+s89388
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/ProgressIndicator.o
+t1411789747
+s54632
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLAboutViewController.o
+t1411789747
+s81500
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLAppDelegate.o
+t1411789747
+s62752
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLBannerViewController.o
+t1411789747
+s63920
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLCountDownViewController.o
+t1411789747
+s131980
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLLabeledPickerView.o
+t1411789747
+s54280
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLSoundPlayer.o
+t1411789747
+s13848
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLTimeManager.o
+t1411789747
+s72504
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/Timer To Go.LinkFileList
+c0000000053C74B21000000000000070B
+t1405569825
+s1803
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/UIColor+Colors.o
+t1411789747
+s13584
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/main.o
+t1411789747
+s3228
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Script-FB98CDF61692D9F4000DD0B1.sh
+c0000000053C74B21000000000000000B
+t1405569825
+s11
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/iTunesArtwork.png
+c0000000050DF21FA00000000000181E4
+t1356800506
+s98788
+
+N/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/iTunesArtwork@2x.png
+c0000000050DF21AB0000000000030676
+t1356800427
+s198262
+
+N/var/folders/x0/9nfmyskj2tv4208tdvgjm4y80000gr/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TimerToGo-Prefix-hjklqfkabmfpxkhlaiqzeyqvqzgr/TimerToGo-Prefix.pch.pch
+t1407209303
+s5379580
+
+CBuild AST from /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/ProgressIndicator.m
+r0
+
+CBuild AST from /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/SPLAboutViewController.m
+r0
+
+CBuild AST from /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/SPLLabeledPickerView.m
+r0
+
+CBuild AST from /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/InvervalSettingViewController.m
+r0
+
+CBuild AST from /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLAppDelegate.m
+r0
+
+CBuild AST from /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLBannerViewController.m
+r0
+
+CBuild AST from /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLCountDownViewController.m
+r0
+
+CBuild AST from /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLSoundPlayer.m
+r0
+
+CBuild AST from /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLTimeManager.m
+r0
+
+CBuild AST from /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/UIColor+Colors.m
+r0
+
+CBuild AST from /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciese7e011336bd6b941^ec4f1e336bd6b941^---0#1#1#--18"Check dependencies36"694BD046-01F0-41FB-A1B9-054882F2E284-
+
+CCompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/InvervalSettingViewController.o /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/InvervalSettingViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s433482547.119869
+e433482547.246361
+r1
+xCompileC
+xbuild/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/InvervalSettingViewController.o
+x/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/InvervalSettingViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/InvervalSettingViewController.m
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/InvervalSettingViewController.h
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLCountDownViewController.h
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/SPLTimerClient.h
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLSoundPlayer.h
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLBannerViewController.h
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/SPLLabeledPickerView.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/InvervalSettingViewController.m230"CompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/InvervalSettingViewController.o TalkTimer/InvervalSettingViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler05c21e336bd6b941^06133f336bd6b941^---0#0#1#-19%DVTDocumentLocation2@111"file:///Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/InvervalSettingViewController.m0000000000000000^3872"CompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/InvervalSettingViewController.o TalkTimer/InvervalSettingViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DFULL_VERSION -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-generated-files.hmap -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-own-target-headers.hmap -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-all-target-headers.hmap -iquote /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-project-headers.hmap -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/DerivedSources/i386 -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/DerivedSources -F/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator -include /var/folders/x0/9nfmyskj2tv4208tdvgjm4y80000gr/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TimerToGo-Prefix-hjklqfkabmfpxkhlaiqzeyqvqzgr/TimerToGo-Prefix.pch -MMD -MT dependencies -MF /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/InvervalSettingViewController.d --serialize-diagnostics /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/InvervalSettingViewController.dia -c /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/InvervalSettingViewController.m -o /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/InvervalSettingViewController.o36"8F3645CA-2739-4C09-B923-8073BF3CF0FC-
+bF32DABEA-FB74-4B31-9E69-66EF254F2E3F
+
+CCompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/ProgressIndicator.o /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/ProgressIndicator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s433482547.121492
+e433482547.201193
+r1
+xCompileC
+xbuild/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/ProgressIndicator.o
+x/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/ProgressIndicator.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/ProgressIndicator.m
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/ProgressIndicator.h
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/UIColor+Colors.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/ProgressIndicator.m196"CompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/ProgressIndicator.o ProgressIndicator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera06f1f336bd6b941^c78133336bd6b941^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/ProgressIndicator.m0000000000000000^3780"CompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/ProgressIndicator.o ProgressIndicator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DFULL_VERSION -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-generated-files.hmap -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-own-target-headers.hmap -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-all-target-headers.hmap -iquote /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-project-headers.hmap -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/DerivedSources/i386 -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/DerivedSources -F/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator -include /var/folders/x0/9nfmyskj2tv4208tdvgjm4y80000gr/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TimerToGo-Prefix-hjklqfkabmfpxkhlaiqzeyqvqzgr/TimerToGo-Prefix.pch -MMD -MT dependencies -MF /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/ProgressIndicator.d --serialize-diagnostics /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/ProgressIndicator.dia -c /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/ProgressIndicator.m -o /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/ProgressIndicator.o36"E204DBB5-9784-41D7-82DF-B4BEE3212F5B-
+bF32DABEA-FB74-4B31-9E69-66EF254F2E3F
+
+CCompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLAboutViewController.o /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/SPLAboutViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s433482547.186673
+e433482547.258775
+r1
+xCompileC
+xbuild/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLAboutViewController.o
+x/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/SPLAboutViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/SPLAboutViewController.m
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/SPLAboutViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/SPLAboutViewController.m206"CompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLAboutViewController.o SPLAboutViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerd1e72f336bd6b941^8a3f42336bd6b941^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/SPLAboutViewController.m0000000000000000^3810"CompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLAboutViewController.o SPLAboutViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DFULL_VERSION -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-generated-files.hmap -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-own-target-headers.hmap -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-all-target-headers.hmap -iquote /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-project-headers.hmap -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/DerivedSources/i386 -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/DerivedSources -F/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator -include /var/folders/x0/9nfmyskj2tv4208tdvgjm4y80000gr/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TimerToGo-Prefix-hjklqfkabmfpxkhlaiqzeyqvqzgr/TimerToGo-Prefix.pch -MMD -MT dependencies -MF /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLAboutViewController.d --serialize-diagnostics /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLAboutViewController.dia -c /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/SPLAboutViewController.m -o /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLAboutViewController.o36"9549547D-39E1-4B7F-BD39-50B8EF95581E-
+bF32DABEA-FB74-4B31-9E69-66EF254F2E3F
+
+CCompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLAppDelegate.o /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s433482547.119682
+e433482547.194947
+r1
+xCompileC
+xbuild/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLAppDelegate.o
+x/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLAppDelegate.m
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLAppDelegate.m200"CompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLAppDelegate.o TalkTimer/SPLAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler17ba1e336bd6b941^29e931336bd6b941^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLAppDelegate.m0000000000000000^3782"CompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLAppDelegate.o TalkTimer/SPLAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DFULL_VERSION -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-generated-files.hmap -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-own-target-headers.hmap -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-all-target-headers.hmap -iquote /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-project-headers.hmap -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/DerivedSources/i386 -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/DerivedSources -F/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator -include /var/folders/x0/9nfmyskj2tv4208tdvgjm4y80000gr/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TimerToGo-Prefix-hjklqfkabmfpxkhlaiqzeyqvqzgr/TimerToGo-Prefix.pch -MMD -MT dependencies -MF /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLAppDelegate.d --serialize-diagnostics /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLAppDelegate.dia -c /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLAppDelegate.m -o /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLAppDelegate.o36"B1F31FE5-6C2D-415D-853B-C5E1217F8B1E-
+bF32DABEA-FB74-4B31-9E69-66EF254F2E3F
+
+CCompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLBannerViewController.o /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLBannerViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s433482547.147972
+e433482547.226290
+r1
+xCompileC
+xbuild/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLBannerViewController.o
+x/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLBannerViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLBannerViewController.m
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLBannerViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLBannerViewController.m218"CompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLBannerViewController.o TalkTimer/SPLBannerViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler87fe25336bd6b941^57ee39336bd6b941^---0#0#1#-19%DVTDocumentLocation2@105"file:///Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLBannerViewController.m0000000000000000^3836"CompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLBannerViewController.o TalkTimer/SPLBannerViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DFULL_VERSION -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-generated-files.hmap -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-own-target-headers.hmap -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-all-target-headers.hmap -iquote /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-project-headers.hmap -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/DerivedSources/i386 -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/DerivedSources -F/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator -include /var/folders/x0/9nfmyskj2tv4208tdvgjm4y80000gr/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TimerToGo-Prefix-hjklqfkabmfpxkhlaiqzeyqvqzgr/TimerToGo-Prefix.pch -MMD -MT dependencies -MF /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLBannerViewController.d --serialize-diagnostics /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLBannerViewController.dia -c /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLBannerViewController.m -o /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLBannerViewController.o36"3F46BA3C-0182-496A-8B7E-3443D3D2EF0D-
+bF32DABEA-FB74-4B31-9E69-66EF254F2E3F
+
+CCompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLCountDownViewController.o /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLCountDownViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s433482547.120202
+e433482547.263226
+r1
+xCompileC
+xbuild/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLCountDownViewController.o
+x/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLCountDownViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLCountDownViewController.m
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLCountDownViewController.h
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/SPLTimerClient.h
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLSoundPlayer.h
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLTimeManager.h
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/ProgressIndicator.h
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLBannerViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLCountDownViewController.m224"CompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLCountDownViewController.o TalkTimer/SPLCountDownViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler8fe41e336bd6b941^026543336bd6b941^---0#0#1#-19%DVTDocumentLocation2@108"file:///Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLCountDownViewController.m0000000000000000^3854"CompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLCountDownViewController.o TalkTimer/SPLCountDownViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DFULL_VERSION -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-generated-files.hmap -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-own-target-headers.hmap -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-all-target-headers.hmap -iquote /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-project-headers.hmap -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/DerivedSources/i386 -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/DerivedSources -F/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator -include /var/folders/x0/9nfmyskj2tv4208tdvgjm4y80000gr/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TimerToGo-Prefix-hjklqfkabmfpxkhlaiqzeyqvqzgr/TimerToGo-Prefix.pch -MMD -MT dependencies -MF /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLCountDownViewController.d --serialize-diagnostics /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLCountDownViewController.dia -c /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLCountDownViewController.m -o /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLCountDownViewController.o36"C9FB13C6-C393-4143-9ED5-A7C2F2C9E956-
+bF32DABEA-FB74-4B31-9E69-66EF254F2E3F
+
+CCompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLLabeledPickerView.o /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/SPLLabeledPickerView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s433482547.155259
+e433482547.222963
+r1
+xCompileC
+xbuild/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLLabeledPickerView.o
+x/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/SPLLabeledPickerView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/SPLLabeledPickerView.m
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/SPLLabeledPickerView.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/SPLLabeledPickerView.m202"CompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLLabeledPickerView.o SPLLabeledPickerView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerbad927336bd6b941^901439336bd6b941^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/SPLLabeledPickerView.m0000000000000000^3798"CompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLLabeledPickerView.o SPLLabeledPickerView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DFULL_VERSION -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-generated-files.hmap -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-own-target-headers.hmap -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-all-target-headers.hmap -iquote /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-project-headers.hmap -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/DerivedSources/i386 -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/DerivedSources -F/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator -include /var/folders/x0/9nfmyskj2tv4208tdvgjm4y80000gr/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TimerToGo-Prefix-hjklqfkabmfpxkhlaiqzeyqvqzgr/TimerToGo-Prefix.pch -MMD -MT dependencies -MF /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLLabeledPickerView.d --serialize-diagnostics /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLLabeledPickerView.dia -c /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/SPLLabeledPickerView.m -o /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLLabeledPickerView.o36"A3156EC1-FF70-42AD-BC2E-B813CB7CD7C5-
+bF32DABEA-FB74-4B31-9E69-66EF254F2E3F
+
+CCompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLSoundPlayer.o /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLSoundPlayer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s433482547.120489
+e433482547.186243
+r1
+xCompileC
+xbuild/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLSoundPlayer.o
+x/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLSoundPlayer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLSoundPlayer.m
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLSoundPlayer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLSoundPlayer.m200"CompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLSoundPlayer.o TalkTimer/SPLSoundPlayer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilercff41e336bd6b941^626a2f336bd6b941^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLSoundPlayer.m0000000000000000^3782"CompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLSoundPlayer.o TalkTimer/SPLSoundPlayer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DFULL_VERSION -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-generated-files.hmap -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-own-target-headers.hmap -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-all-target-headers.hmap -iquote /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-project-headers.hmap -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/DerivedSources/i386 -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/DerivedSources -F/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator -include /var/folders/x0/9nfmyskj2tv4208tdvgjm4y80000gr/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TimerToGo-Prefix-hjklqfkabmfpxkhlaiqzeyqvqzgr/TimerToGo-Prefix.pch -MMD -MT dependencies -MF /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLSoundPlayer.d --serialize-diagnostics /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLSoundPlayer.dia -c /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLSoundPlayer.m -o /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLSoundPlayer.o36"9F3E01A5-D8C6-45F9-B478-BDBBDD3DFC48-
+bF32DABEA-FB74-4B31-9E69-66EF254F2E3F
+
+CCompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLTimeManager.o /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLTimeManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s433482547.121184
+e433482547.207587
+r1
+xCompileC
+xbuild/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLTimeManager.o
+x/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLTimeManager.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLTimeManager.m
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLTimeManager.h
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/SPLTimerClient.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLTimeManager.m200"CompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLTimeManager.o TalkTimer/SPLTimeManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerb7281f336bd6b941^e12435336bd6b941^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLTimeManager.m0000000000000000^3782"CompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLTimeManager.o TalkTimer/SPLTimeManager.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DFULL_VERSION -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-generated-files.hmap -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-own-target-headers.hmap -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-all-target-headers.hmap -iquote /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-project-headers.hmap -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/DerivedSources/i386 -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/DerivedSources -F/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator -include /var/folders/x0/9nfmyskj2tv4208tdvgjm4y80000gr/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TimerToGo-Prefix-hjklqfkabmfpxkhlaiqzeyqvqzgr/TimerToGo-Prefix.pch -MMD -MT dependencies -MF /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLTimeManager.d --serialize-diagnostics /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLTimeManager.dia -c /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLTimeManager.m -o /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLTimeManager.o36"A1105A21-A7E9-4C03-B0B9-C02182CBC7EA-
+bF32DABEA-FB74-4B31-9E69-66EF254F2E3F
+
+CCompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/UIColor+Colors.o /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/UIColor+Colors.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s433482547.122160
+e433482547.155028
+r1
+xCompileC
+xbuild/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/UIColor+Colors.o
+x/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/UIColor+Colors.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/UIColor+Colors.m
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/UIColor+Colors.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/UIColor+Colors.m200"CompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/UIColor+Colors.o TalkTimer/UIColor+Colors.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler7e731f336bd6b941^199227336bd6b941^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/UIColor+Colors.m0000000000000000^3782"CompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/UIColor+Colors.o TalkTimer/UIColor+Colors.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DFULL_VERSION -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-generated-files.hmap -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-own-target-headers.hmap -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-all-target-headers.hmap -iquote /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-project-headers.hmap -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/DerivedSources/i386 -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/DerivedSources -F/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator -include /var/folders/x0/9nfmyskj2tv4208tdvgjm4y80000gr/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TimerToGo-Prefix-hjklqfkabmfpxkhlaiqzeyqvqzgr/TimerToGo-Prefix.pch -MMD -MT dependencies -MF /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/UIColor+Colors.d --serialize-diagnostics /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/UIColor+Colors.dia -c /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/UIColor+Colors.m -o /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/UIColor+Colors.o36"DC4183BD-FBAA-41AA-9D55-438D01DC7EEA-
+bF32DABEA-FB74-4B31-9E69-66EF254F2E3F
+
+CCompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/main.o /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s433482547.119500
+e433482547.147704
+r1
+xCompileC
+xbuild/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/main.o
+x/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/main.m
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/SPLAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/main.m180"CompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/main.o TalkTimer/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerb4ad1e336bd6b941^20d025336bd6b941^---0#0#1#-19%DVTDocumentLocation2@86"file:///Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/main.m0000000000000000^3722"CompileC build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/main.o TalkTimer/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DFULL_VERSION -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.0 -iquote /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-generated-files.hmap -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-own-target-headers.hmap -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-all-target-headers.hmap -iquote /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer\ To\ Go-project-headers.hmap -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/DerivedSources/i386 -I/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/DerivedSources -F/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator -include /var/folders/x0/9nfmyskj2tv4208tdvgjm4y80000gr/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TimerToGo-Prefix-hjklqfkabmfpxkhlaiqzeyqvqzgr/TimerToGo-Prefix.pch -MMD -MT dependencies -MF /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/main.dia -c /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/main.m -o /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/main.o36"836B3813-FCE4-4E5E-BB8F-6BC4701DD5CF-
+bF32DABEA-FB74-4B31-9E69-66EF254F2E3F
+
+CCompileStoryboard /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/en.lproj/MainStoryboard.storyboard
+s433482547.316777
+e433482549.103972
+r1
+xCompileStoryboard
+x/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/en.lproj/MainStoryboard.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"CompileStoryboard TalkTimer/en.lproj/MainStoryboard.storyboard62"CompileStoryboard TalkTimer/en.lproj/MainStoryboard.storyboard032551336bd6b941^909e1a356bd6b941^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/en.lproj/MainStoryboard.storyboard0000000000000000^936"CompileStoryboard TalkTimer/en.lproj/MainStoryboard.storyboard    cd /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo    export IBSC_MINIMUM_COMPATIBILITY_VERSION=6.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 6.0 --output-format human-readable-text --compile /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer\ To\ Go.app/en.lproj/MainStoryboard.storyboardc /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TalkTimer/en.lproj/MainStoryboard.storyboard36"8272E056-99AD-482F-B624-6D2D64A4329C-
+bF32DABEA-FB74-4B31-9E69-66EF254F2E3F
+
+CCopyStringsFile /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer\ To\ Go.app/en.lproj/InfoPlist.strings TalkTimer/en.lproj/InfoPlist.strings
+r0
+
+CCpResource FullVersion/Icon.png build/Debug-iphonesimulator/Timer\ To\ Go.app/Icon.png
+r0
+
+CCpResource FullVersion/Icon@2x.png build/Debug-iphonesimulator/Timer\ To\ Go.app/Icon@2x.png
+r0
+
+CCpResource TalkTimer/AppBackGround.png build/Debug-iphonesimulator/Timer\ To\ Go.app/AppBackGround.png
+r0
+
+CCpResource TalkTimer/AppBackGround@2x.png build/Debug-iphonesimulator/Timer\ To\ Go.app/AppBackGround@2x.png
+r0
+
+CCpResource TalkTimer/Apple\ LiGothic\ Medium.ttf build/Debug-iphonesimulator/Timer\ To\ Go.app/Apple\ LiGothic\ Medium.ttf
+r0
+
+CCpResource TalkTimer/CancelButton.png build/Debug-iphonesimulator/Timer\ To\ Go.app/CancelButton.png
+r0
+
+CCpResource TalkTimer/CancelOn.png build/Debug-iphonesimulator/Timer\ To\ Go.app/CancelOn.png
+r0
+
+CCpResource TalkTimer/ClockBackground.png build/Debug-iphonesimulator/Timer\ To\ Go.app/ClockBackground.png
+r0
+
+CCpResource TalkTimer/ClockBackground@2x.png build/Debug-iphonesimulator/Timer\ To\ Go.app/ClockBackground@2x.png
+r0
+
+CCpResource TalkTimer/DS-DIGI.TTF build/Debug-iphonesimulator/Timer\ To\ Go.app/DS-DIGI.TTF
+r0
+
+CCpResource TalkTimer/Default-568h@2x.png build/Debug-iphonesimulator/Timer\ To\ Go.app/Default-568h@2x.png
+r0
+
+CCpResource TalkTimer/Default.png build/Debug-iphonesimulator/Timer\ To\ Go.app/Default.png
+r0
+
+CCpResource TalkTimer/Default@2x.png build/Debug-iphonesimulator/Timer\ To\ Go.app/Default@2x.png
+r0
+
+CCpResource TalkTimer/GreenButton.png build/Debug-iphonesimulator/Timer\ To\ Go.app/GreenButton.png
+r0
+
+CCpResource TalkTimer/GreenButtonDown.png build/Debug-iphonesimulator/Timer\ To\ Go.app/GreenButtonDown.png
+r0
+
+CCpResource TalkTimer/Icon-Small.png build/Debug-iphonesimulator/Timer\ To\ Go.app/Icon-Small.png
+r0
+
+CCpResource TalkTimer/Icon-Small@2x.png build/Debug-iphonesimulator/Timer\ To\ Go.app/Icon-Small@2x.png
+r0
+
+CCpResource TalkTimer/Pause.png build/Debug-iphonesimulator/Timer\ To\ Go.app/Pause.png
+r0
+
+CCpResource TalkTimer/PauseOn.png build/Debug-iphonesimulator/Timer\ To\ Go.app/PauseOn.png
+r0
+
+CCpResource TalkTimer/StartButton.png build/Debug-iphonesimulator/Timer\ To\ Go.app/StartButton.png
+r0
+
+CCpResource TalkTimer/StartButton@2x.png build/Debug-iphonesimulator/Timer\ To\ Go.app/StartButton@2x.png
+r0
+
+CCpResource TalkTimer/TTBanner.png build/Debug-iphonesimulator/Timer\ To\ Go.app/TTBanner.png
+r0
+
+CCpResource TalkTimer/TTBanner@2x.png build/Debug-iphonesimulator/Timer\ To\ Go.app/TTBanner@2x.png
+r0
+
+CCpResource TalkTimer/digital7mono.ttf build/Debug-iphonesimulator/Timer\ To\ Go.app/digital7mono.ttf
+r0
+
+CCpResource TalkTimer/display.png build/Debug-iphonesimulator/Timer\ To\ Go.app/display.png
+r0
+
+CCpResource TalkTimer/downclick.aif build/Debug-iphonesimulator/Timer\ To\ Go.app/downclick.aif
+r0
+
+CCpResource TalkTimer/endingBell.aif build/Debug-iphonesimulator/Timer\ To\ Go.app/endingBell.aif
+r0
+
+CCpResource TalkTimer/infoIcon.png build/Debug-iphonesimulator/Timer\ To\ Go.app/infoIcon.png
+r0
+
+CCpResource TalkTimer/infoIcon@2x.png build/Debug-iphonesimulator/Timer\ To\ Go.app/infoIcon@2x.png
+r0
+
+CCpResource TalkTimer/pingclick.aif build/Debug-iphonesimulator/Timer\ To\ Go.app/pingclick.aif
+r0
+
+CCpResource TalkTimer/progressCircle.png build/Debug-iphonesimulator/Timer\ To\ Go.app/progressCircle.png
+r0
+
+CCpResource TalkTimer/resume.png build/Debug-iphonesimulator/Timer\ To\ Go.app/resume.png
+r0
+
+CCpResource TalkTimer/resumeOn.png build/Debug-iphonesimulator/Timer\ To\ Go.app/resumeOn.png
+r0
+
+CCpResource TalkTimer/settinicon.png build/Debug-iphonesimulator/Timer\ To\ Go.app/settinicon.png
+r0
+
+CCpResource TalkTimer/upclick.aif build/Debug-iphonesimulator/Timer\ To\ Go.app/upclick.aif
+r0
+
+CCpResource iTunesArtwork.png build/Debug-iphonesimulator/Timer\ To\ Go.app/iTunesArtwork.png
+r0
+
+CCpResource iTunesArtwork@2x.png build/Debug-iphonesimulator/Timer\ To\ Go.app/iTunesArtwork@2x.png
+r0
+
+CGenerateDSYMFile /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer\ To\ Go.app.dSYM /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer\ To\ Go.app/Timer\ To\ Go
+s433482547.292012
+e433482547.316080
+r1
+xGenerateDSYMFile
+x/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app.dSYM
+x/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/Timer To Go
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Generate /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app.dSYM127"GenerateDSYMFile build/Debug-iphonesimulator/Timer\ To\ Go.app.dSYM build/Debug-iphonesimulator/Timer\ To\ Go.app/Timer\ To\ Gob4cc4a336bd6b941^9aeb50336bd6b941^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer%20To%20Go.app.dSYM/0000000000000000^733"GenerateDSYMFile build/Debug-iphonesimulator/Timer\ To\ Go.app.dSYM build/Debug-iphonesimulator/Timer\ To\ Go.app/Timer\ To\ Go    cd /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer\ To\ Go.app/Timer\ To\ Go -o /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer\ To\ Go.app.dSYM36"78EB0211-63BB-4436-9F01-7FE1716A3C29-
+bF32DABEA-FB74-4B31-9E69-66EF254F2E3F
+
+CLd /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer\ To\ Go.app/Timer\ To\ Go normal i386
+s433482547.264344
+e433482547.291259
+r1
+xLd
+x/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/Timer To Go
+xnormal
+xi386
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/Timer To Go.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/main.o
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLAppDelegate.o
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/InvervalSettingViewController.o
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLCountDownViewController.o
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLSoundPlayer.o
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLTimeManager.o
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/ProgressIndicator.o
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/UIColor+Colors.o
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLBannerViewController.o
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLLabeledPickerView.o
+d/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/SPLAboutViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/iAd.framework/iAd
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Link /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app/Timer To Go74"Ld build/Debug-iphonesimulator/Timer\ To\ Go.app/Timer\ To\ Go normal i38667ba43336bd6b941^79904a336bd6b941^---0#0#1#--1646"Ld build/Debug-iphonesimulator/Timer\ To\ Go.app/Timer\ To\ Go normal i386    cd /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo    export IPHONEOS_DEPLOYMENT_TARGET=6.0    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator -L/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/library -F/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator -filelist /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/Timer\ To\ Go.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.0 -framework MessageUI -framework iAd -framework AudioToolbox -framework UIKit -framework Foundation -framework CoreGraphics -Xlinker -dependency_info -Xlinker /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/Timer\ To\ Go_dependency_info.dat -o /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer\ To\ Go.app/Timer\ To\ Go36"29CE4A74-49AD-4E13-B2E8-128ABE15DC19-
+bF32DABEA-FB74-4B31-9E69-66EF254F2E3F
+
+CPhaseScriptExecution Run\ Script /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Script-FB98CDF61692D9F4000DD0B1.sh
+s433482549.104873
+e433482549.115085
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Script-FB98CDF61692D9F4000DD0B1.sh
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'127"PhaseScriptExecution Run\ Script build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Script-FB98CDF61692D9F4000DD0B1.sha08a1b356bd6b941^75771d356bd6b941^---0#0#1#--22561"PhaseScriptExecution Run\ Script build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Script-FB98CDF61692D9F4000DD0B1.sh    cd /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo    export ACTION=build    export AD_HOC_CODE_SIGNING_ALLOWED=NO    export ALTERNATE_GROUP=staff    export ALTERNATE_MODE=u+w,go-w,a+rX    export ALTERNATE_OWNER=shannonlayden    export ALWAYS_SEARCH_USER_PATHS=NO    export ALWAYS_USE_SEPARATE_HEADERMAPS=YES    export APPLE_INTERNAL_DEVELOPER_DIR=/AppleInternal/Developer    export APPLE_INTERNAL_DIR=/AppleInternal    export APPLE_INTERNAL_DOCUMENTATION_DIR=/AppleInternal/Documentation    export APPLE_INTERNAL_LIBRARY_DIR=/AppleInternal/Library    export APPLE_INTERNAL_TOOLS=/AppleInternal/Developer/Tools    export APPLY_RULES_IN_COPY_FILES=NO    export ARCHS=i386    export ARCHS_STANDARD="i386 x86_64"    export ARCHS_STANDARD_32_64_BIT="i386 x86_64"    export ARCHS_STANDARD_32_BIT=i386    export ARCHS_STANDARD_64_BIT=x86_64    export ARCHS_STANDARD_INCLUDING_64_BIT="i386 x86_64"    export AVAILABLE_PLATFORMS="iphonesimulator macosx iphoneos"    export BUILD_COMPONENTS="headers build"    export BUILD_DIR=/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build    export BUILD_ROOT=/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build    export BUILD_STYLE=    export BUILD_VARIANTS=normal    export BUILT_PRODUCTS_DIR=/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator    export CACHE_ROOT=/var/folders/x0/9nfmyskj2tv4208tdvgjm4y80000gr/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode    export CCHROOT=/var/folders/x0/9nfmyskj2tv4208tdvgjm4y80000gr/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode    export CHMOD=/bin/chmod    export CHOWN=/usr/sbin/chown    export CLANG_CXX_LANGUAGE_STANDARD=gnu++0x    export CLANG_ENABLE_OBJC_ARC=YES    export CLANG_WARN__DUPLICATE_METHOD_MATCH=YES    export CLASS_FILE_DIR=/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/JavaClasses    export CLEAN_PRECOMPS=YES    export CLONE_HEADERS=NO    export CODESIGNING_FOLDER_PATH="/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app"    export CODE_SIGNING_ALLOWED=NO    export CODE_SIGN_CONTEXT_CLASS=XCiPhoneSimulatorCodeSignContext    export COLOR_DIAGNOSTICS=NO    export COMBINE_HIDPI_IMAGES=NO    export COMMAND_MODE=legacy    export COMPOSITE_SDK_DIRS=/var/folders/x0/9nfmyskj2tv4208tdvgjm4y80000gr/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/CompositeSDKs    export COMPRESS_PNG_FILES=YES    export CONFIGURATION=Debug    export CONFIGURATION_BUILD_DIR=/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator    export CONFIGURATION_TEMP_DIR=/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator    export CONTENTS_FOLDER_PATH="Timer To Go.app"    export COPYING_PRESERVES_HFS_DATA=NO    export COPY_PHASE_STRIP=NO    export COPY_RESOURCES_FROM_STATIC_FRAMEWORKS=YES    export CP=/bin/cp    export CREATE_INFOPLIST_SECTION_IN_BINARY=NO    export CURRENT_ARCH=i386    export CURRENT_VARIANT=normal    export DEAD_CODE_STRIPPING=NO    export DEBUGGING_SYMBOLS=YES    export DEBUG_INFORMATION_FORMAT=dwarf-with-dsym    export DEFAULT_COMPILER=com.apple.compilers.llvm.clang.1_0    export DEFAULT_KEXT_INSTALL_PATH=/System/Library/Extensions    export DEPLOYMENT_LOCATION=NO    export DEPLOYMENT_POSTPROCESSING=NO    export DERIVED_FILES_DIR=/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/DerivedSources    export DERIVED_FILE_DIR=/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/DerivedSources    export DERIVED_SOURCES_DIR=/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/DerivedSources    export DEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/Applications    export DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/bin    export DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer    export DEVELOPER_FRAMEWORKS_DIR=/Applications/Xcode.app/Contents/Developer/Library/Frameworks    export DEVELOPER_FRAMEWORKS_DIR_QUOTED=/Applications/Xcode.app/Contents/Developer/Library/Frameworks    export DEVELOPER_LIBRARY_DIR=/Applications/Xcode.app/Contents/Developer/Library    export DEVELOPER_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    export DEVELOPER_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Tools    export DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usr    export DEVELOPMENT_LANGUAGE=English    export DOCUMENTATION_FOLDER_PATH="Timer To Go.app/English.lproj/Documentation"    export DO_HEADER_SCANNING_IN_JAM=NO    export DSTROOT=/tmp/TimerToGo.dst    export DT_TOOLCHAIN_DIR=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    export DWARF_DSYM_FILE_NAME="Timer To Go.app.dSYM"    export DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT=NO    export DWARF_DSYM_FOLDER_PATH=/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator    export EFFECTIVE_PLATFORM_NAME=-iphonesimulator    export ENABLE_HEADER_DEPENDENCIES=YES    export EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS=".DS_Store .svn .git .hg CVS"    export EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES="*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    export EXECUTABLES_FOLDER_PATH="Timer To Go.app/Executables"    export EXECUTABLE_FOLDER_PATH="Timer To Go.app"    export EXECUTABLE_NAME="Timer To Go"    export EXECUTABLE_PATH="Timer To Go.app/Timer To Go"    export FILE_LIST=/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects/LinkFileList    export FIXED_FILES_DIR=/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/FixedFiles    export FRAMEWORKS_FOLDER_PATH="Timer To Go.app/Frameworks"    export FRAMEWORK_FLAG_PREFIX=-framework    export FRAMEWORK_SEARCH_PATHS="/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator "    export FRAMEWORK_VERSION=A    export FULL_PRODUCT_NAME="Timer To Go.app"    export GCC3_VERSION=3.3    export GCC_C_LANGUAGE_STANDARD=gnu99    export GCC_DYNAMIC_NO_PIC=NO    export GCC_INLINES_ARE_PRIVATE_EXTERN=YES    export GCC_OBJC_LEGACY_DISPATCH=YES    export GCC_OPTIMIZATION_LEVEL=0    export GCC_PFE_FILE_C_DIALECTS="c objective-c c++ objective-c++"    export GCC_PRECOMPILE_PREFIX_HEADER=YES    export GCC_PREFIX_HEADER=TalkTimer/TimerToGo-Prefix.pch    export GCC_PREPROCESSOR_DEFINITIONS=FULL_VERSION    export GCC_SYMBOLS_PRIVATE_EXTERN=NO    export GCC_TREAT_WARNINGS_AS_ERRORS=NO    export GCC_VERSION=com.apple.compilers.llvm.clang.1_0    export GCC_VERSION_IDENTIFIER=com_apple_compilers_llvm_clang_1_0    export GCC_WARN_ABOUT_RETURN_TYPE=YES    export GCC_WARN_UNINITIALIZED_AUTOS=YES    export GCC_WARN_UNUSED_VARIABLE=YES    export GENERATE_MASTER_OBJECT_FILE=NO    export GENERATE_PKGINFO_FILE=YES    export GENERATE_PROFILING_CODE=NO    export GID=20    export GROUP=staff    export HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT=YES    export HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES=YES    export HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS=YES    export HEADERMAP_INCLUDES_PROJECT_HEADERS=YES    export HEADER_SEARCH_PATHS="/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/include  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"    export ICONV=/usr/bin/iconv    export INFOPLIST_EXPAND_BUILD_SETTINGS=YES    export INFOPLIST_FILE=/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TimerToGoPlus-Info.plist    export INFOPLIST_OUTPUT_FORMAT=binary    export INFOPLIST_PATH="Timer To Go.app/Info.plist"    export INFOPLIST_PREPROCESS=NO    export INFOSTRINGS_PATH="Timer To Go.app/English.lproj/InfoPlist.strings"    export INSTALL_DIR=/tmp/TimerToGo.dst/Applications    export INSTALL_GROUP=staff    export INSTALL_MODE_FLAG=u+w,go-w,a+rX    export INSTALL_OWNER=shannonlayden    export INSTALL_PATH=/Applications    export INSTALL_ROOT=/tmp/TimerToGo.dst    export IPHONEOS_DEPLOYMENT_TARGET=6.0    export IsPaid=True    export JAVAC_DEFAULT_FLAGS="-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    export JAVA_APP_STUB=/System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    export JAVA_ARCHIVE_CLASSES=YES    export JAVA_ARCHIVE_TYPE=JAR    export JAVA_COMPILER=/usr/bin/javac    export JAVA_FOLDER_PATH="Timer To Go.app/Java"    export JAVA_FRAMEWORK_RESOURCES_DIRS=Resources    export JAVA_JAR_FLAGS=cv    export JAVA_SOURCE_SUBDIR=.    export JAVA_USE_DEPENDENCIES=YES    export JAVA_ZIP_FLAGS=-urg    export JIKES_DEFAULT_FLAGS="+E +OLDCSO"    export KEEP_PRIVATE_EXTERNS=NO    export LD_DEPENDENCY_INFO_FILE="/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/Timer To Go_dependency_info.dat"    export LD_GENERATE_MAP_FILE=NO    export LD_MAP_FILE_PATH="/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Timer To Go-LinkMap-normal-i386.txt"    export LD_NO_PIE=NO    export LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER=YES    export LEGACY_DEVELOPER_DIR=/Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    export LEX=lex    export LIBRARY_FLAG_NOSPACE=YES    export LIBRARY_FLAG_PREFIX=-l    export LIBRARY_KEXT_INSTALL_PATH=/Library/Extensions    export LIBRARY_SEARCH_PATHS="/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator  \"/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/library\""    export LINKER_DISPLAYS_MANGLED_NAMES=NO    export LINK_FILE_LIST_normal_i386="/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal/i386/Timer To Go.LinkFileList"    export LINK_WITH_STANDARD_LIBRARIES=YES    export LOCALIZED_RESOURCES_FOLDER_PATH="Timer To Go.app/English.lproj"    export LOCAL_ADMIN_APPS_DIR=/Applications/Utilities    export LOCAL_APPS_DIR=/Applications    export LOCAL_DEVELOPER_DIR=/Library/Developer    export LOCAL_LIBRARY_DIR=/Library    export MACH_O_TYPE=mh_execute    export MACOSX_DEPLOYMENT_TARGET=10.6    export MAC_OS_X_PRODUCT_BUILD_VERSION=13E28    export MAC_OS_X_VERSION_ACTUAL=1094    export MAC_OS_X_VERSION_MAJOR=1090    export MAC_OS_X_VERSION_MINOR=0904    export MODULE_CACHE_DIR=/Users/shannonlayden/Library/Developer/Xcode/DerivedData/ModuleCache    export NATIVE_ARCH=i386    export NATIVE_ARCH_32_BIT=i386    export NATIVE_ARCH_64_BIT=x86_64    export NATIVE_ARCH_ACTUAL=x86_64    export NO_COMMON=YES    export OBJC_ABI_VERSION=2    export OBJECT_FILE_DIR=/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects    export OBJECT_FILE_DIR_normal=/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Objects-normal    export OBJROOT=/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build    export ONLY_ACTIVE_ARCH=NO    export OPTIMIZATION_LEVEL=0    export OS=MACOS    export OSAC=/usr/bin/osacompile    export PACKAGE_TYPE=com.apple.package-type.wrapper.application    export PASCAL_STRINGS=YES    export PATH="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    export PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES="/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    export PBDEVELOPMENTPLIST_PATH="Timer To Go.app/pbdevelopment.plist"    export PFE_FILE_C_DIALECTS=objective-c    export PKGINFO_FILE_PATH=/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/PkgInfo    export PKGINFO_PATH="Timer To Go.app/PkgInfo"    export PLATFORM_DEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    export PLATFORM_DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    export PLATFORM_DEVELOPER_LIBRARY_DIR=/Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    export PLATFORM_DEVELOPER_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    export PLATFORM_DEVELOPER_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    export PLATFORM_DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    export PLATFORM_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    export PLATFORM_NAME=iphonesimulator    export PLATFORM_PREFERRED_ARCH=i386    export PLATFORM_PRODUCT_BUILD_VERSION=11D167    export PLATFORM_VERSION_AVAILABILITY_H_FORMAT=70100    export PLIST_FILE_OUTPUT_FORMAT=binary    export PLUGINS_FOLDER_PATH="Timer To Go.app/PlugIns"    export PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR=YES    export PRECOMP_DESTINATION_DIR=/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/PrefixHeaders    export PRESERVE_DEAD_CODE_INITS_AND_TERMS=NO    export PRIVATE_HEADERS_FOLDER_PATH="Timer To Go.app/PrivateHeaders"    export PRODUCT_NAME="Timer To Go"    export PRODUCT_SETTINGS_PATH=/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TimerToGoPlus-Info.plist    export PRODUCT_TYPE=com.apple.product-type.application    export PROFILING_CODE=NO    export PROJECT=TimerToGo    export PROJECT_DERIVED_FILE_DIR=/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/DerivedSources    export PROJECT_DIR=/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo    export PROJECT_FILE_PATH=/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TimerToGo.xcodeproj    export PROJECT_NAME=TimerToGo    export PROJECT_TEMP_DIR=/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build    export PROJECT_TEMP_ROOT=/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build    export PUBLIC_HEADERS_FOLDER_PATH="Timer To Go.app/Headers"    export RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS=YES    export REMOVE_CVS_FROM_RESOURCES=YES    export REMOVE_GIT_FROM_RESOURCES=YES    export REMOVE_HG_FROM_RESOURCES=YES    export REMOVE_SVN_FROM_RESOURCES=YES    export REZ_COLLECTOR_DIR=/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/ResourceManagerResources    export REZ_OBJECTS_DIR=/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/ResourceManagerResources/Objects    export REZ_SEARCH_PATHS="/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator "    export SCAN_ALL_SOURCE_FILES_FOR_INCLUDES=NO    export SCRIPTS_FOLDER_PATH="Timer To Go.app/Scripts"    export SCRIPT_INPUT_FILE_COUNT=0    export SCRIPT_OUTPUT_FILE_COUNT=0    export SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk    export SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk    export SDK_NAME=iphonesimulator7.1    export SDK_PRODUCT_BUILD_VERSION=11D167    export SED=/usr/bin/sed    export SEPARATE_STRIP=NO    export SEPARATE_SYMBOL_EDIT=NO    export SET_DIR_MODE_OWNER_GROUP=YES    export SET_FILE_MODE_OWNER_GROUP=NO    export SHALLOW_BUNDLE=YES    export SHARED_DERIVED_FILE_DIR=/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/DerivedSources    export SHARED_FRAMEWORKS_FOLDER_PATH="Timer To Go.app/SharedFrameworks"    export SHARED_PRECOMPS_DIR=/var/folders/x0/9nfmyskj2tv4208tdvgjm4y80000gr/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders    export SHARED_SUPPORT_FOLDER_PATH="Timer To Go.app/SharedSupport"    export SKIP_INSTALL=NO    export SOURCE_ROOT=/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo    export SRCROOT=/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo    export STRINGS_FILE_OUTPUT_ENCODING=binary    export STRIP_INSTALLED_PRODUCT=YES    export STRIP_STYLE=all    export SUPPORTED_DEVICE_FAMILIES="1 2"    export SUPPORTED_PLATFORMS="iphonesimulator iphoneos"    export SYMROOT=/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build    export SYSTEM_ADMIN_APPS_DIR=/Applications/Utilities    export SYSTEM_APPS_DIR=/Applications    export SYSTEM_CORE_SERVICES_DIR=/System/Library/CoreServices    export SYSTEM_DEMOS_DIR=/Applications/Extras    export SYSTEM_DEVELOPER_APPS_DIR=/Applications/Xcode.app/Contents/Developer/Applications    export SYSTEM_DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/bin    export SYSTEM_DEVELOPER_DEMOS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    export SYSTEM_DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer    export SYSTEM_DEVELOPER_DOC_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    export SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    export SYSTEM_DEVELOPER_JAVA_TOOLS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    export SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR="/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    export SYSTEM_DEVELOPER_RELEASENOTES_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    export SYSTEM_DEVELOPER_TOOLS=/Applications/Xcode.app/Contents/Developer/Tools    export SYSTEM_DEVELOPER_TOOLS_DOC_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    export SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR="/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    export SYSTEM_DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usr    export SYSTEM_DEVELOPER_UTILITIES_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Utilities    export SYSTEM_DOCUMENTATION_DIR=/Library/Documentation    export SYSTEM_KEXT_INSTALL_PATH=/System/Library/Extensions    export SYSTEM_LIBRARY_DIR=/System/Library    export TARGETED_DEVICE_FAMILY=1    export TARGETNAME=TimerToGo    export TARGET_BUILD_DIR=/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator    export TARGET_NAME=TimerToGo    export TARGET_TEMP_DIR=/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build    export TEMP_DIR=/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build    export TEMP_FILES_DIR=/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build    export TEMP_FILE_DIR=/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build    export TEMP_ROOT=/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build    export TOOLCHAINS=com.apple.dt.toolchain.XcodeDefault    export UID=504    export UNLOCALIZED_RESOURCES_FOLDER_PATH="Timer To Go.app"    export UNSTRIPPED_PRODUCT=NO    export USER=shannonlayden    export USER_APPS_DIR=/Users/shannonlayden/Applications    export USER_LIBRARY_DIR=/Users/shannonlayden/Library    export USE_DYNAMIC_NO_PIC=YES    export USE_HEADERMAP=YES    export USE_HEADER_SYMLINKS=NO    export VALIDATE_PRODUCT=NO    export VALID_ARCHS="i386 x86_64"    export VERBOSE_PBXCP=NO    export VERSIONPLIST_PATH="Timer To Go.app/version.plist"    export VERSION_INFO_BUILDER=shannonlayden    export VERSION_INFO_FILE="Timer To Go_vers.c"    export VERSION_INFO_STRING="\"@(#)PROGRAM:Timer To Go  PROJECT:TimerToGo-\""    export WRAPPER_EXTENSION=app    export WRAPPER_NAME="Timer To Go.app"    export WRAPPER_SUFFIX=.app    export XCODE_APP_SUPPORT_DIR=/Applications/Xcode.app/Contents/Developer/Library/Xcode    export XCODE_PRODUCT_BUILD_VERSION=5B1008    export XCODE_VERSION_ACTUAL=0511    export XCODE_VERSION_MAJOR=0500    export XCODE_VERSION_MINOR=0510    export XPCSERVICES_FOLDER_PATH="Timer To Go.app/XPCServices"    export YACC=yacc    export arch=i386    export variant=normal    /bin/sh -c /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/TimerToGo.build/Debug-iphonesimulator/TimerToGo.build/Script-FB98CDF61692D9F4000DD0B1.sh36"D5AEE212-23E1-4009-8837-2D77C236D5E4-
+bF32DABEA-FB74-4B31-9E69-66EF254F2E3F
+
+CProcessInfoPlistFile /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer\ To\ Go.app/Info.plist /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/TimerToGoPlus-Info.plist
+r0
+
+CProcessPCH /Users/shannonlayden/Library/Developer/Xcode/DerivedData/TimerToGo-fdfzsasvrudgsghizsxaeciymoet/Index/PrecompiledHeaders/TimerToGo-Prefix-esfkracggmdcveeioniosykkbkkj_ast/TimerToGo-Prefix.pch.pch TalkTimer/TimerToGo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/x0/9nfmyskj2tv4208tdvgjm4y80000gr/C/com.apple.DeveloperTools/5.1.1-5B1008/Xcode/SharedPrecompiledHeaders/TimerToGo-Prefix-hjklqfkabmfpxkhlaiqzeyqvqzgr/TimerToGo-Prefix.pch.pch TalkTimer/TimerToGo-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CTouch /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer\ To\ Go.app
+s433482549.116195
+e433482549.119143
+r1
+xTouch
+x/Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Touch /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer To Go.app51"Touch build/Debug-iphonesimulator/Timer\ To\ Go.app14cb1d356bd6b941^02811e356bd6b941^---0#0#1#--448"Touch build/Debug-iphonesimulator/Timer\ To\ Go.app    cd /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/shannonlayden/Documents/DevProjects/TimerToGo/TimerToGo/build/Debug-iphonesimulator/Timer\ To\ Go.app36"95363440-AB00-4A98-8A3D-FE4317BA46B9-
+bF32DABEA-FB74-4B31-9E69-66EF254F2E3F
+

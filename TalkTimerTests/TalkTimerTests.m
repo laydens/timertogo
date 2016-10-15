@@ -7,26 +7,44 @@
 //
 
 #import "TalkTimerTests.h"
+#import "SPLSoundPlayer.h"
+#import "SPLTimeManager.h"
 
 @implementation TalkTimerTests
+SPLSoundPlayer *player;
 
 - (void)setUp
 {
     [super setUp];
-    
-    // Set-up code here.
-}
+   
+
+   }
 
 - (void)tearDown
 {
     // Tear-down code here.
-    
     [super tearDown];
+   
 }
 
-- (void)testExample
+- (void)testSoundDownClick
 {
-    STFail(@"Unit tests are not implemented yet in TalkTimerTests");
+    player = [[SPLSoundPlayer alloc] initWithPath:@"downclick.aif"];
+    NSBundle* bundle = [NSBundle mainBundle];
+    player.fullpath = [bundle pathForResource:@"downclick.aif" ofType:@"aif"];
+    [player play];
+   // STFail(@"Unit tests are not implemented yet in TalkTimerTests");
 }
 
+
+
+
+/*
+
+-(void)testVibrateOnFinish
+{
+  // player =
+
+}
+*/
 @end

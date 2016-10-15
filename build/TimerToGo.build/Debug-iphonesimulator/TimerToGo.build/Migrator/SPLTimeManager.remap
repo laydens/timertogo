@@ -1,0 +1,30 @@
+[
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/TalkTimer/SPLTimeManager.m",
+  "offset": 424,
+  "remove": 2,
+  "text": "instancetype",
+ },
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/TalkTimer/SPLTimeManager.m",
+  "offset": 1919,
+  "remove": 1,
+ },
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/TalkTimer/SPLTimeManager.m",
+  "offset": 1923,
+  "remove": 29,
+  "text": ".scheduledLocalNotifications",
+ },
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/TalkTimer/SPLTimeManager.m",
+  "offset": 2034,
+  "remove": 1,
+ },
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/TalkTimer/SPLTimeManager.m",
+  "offset": 2051,
+  "remove": 7,
+  "text": ".count",
+ },
+]

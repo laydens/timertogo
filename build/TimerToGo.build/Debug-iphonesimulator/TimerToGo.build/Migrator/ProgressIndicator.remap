@@ -1,0 +1,67 @@
+[
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/ProgressIndicator.m",
+  "offset": 494,
+  "remove": 2,
+  "text": "instancetype",
+ },
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/ProgressIndicator.m",
+  "offset": 591,
+  "remove": 1,
+ },
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/ProgressIndicator.m",
+  "offset": 596,
+  "remove": 20,
+  "text": ".backgroundColor = ",
+ },
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/ProgressIndicator.m",
+  "offset": 636,
+  "remove": 1,
+ },
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/ProgressIndicator.m",
+  "offset": 4720,
+  "remove": 1,
+ },
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/ProgressIndicator.m",
+  "offset": 4725,
+  "remove": 14,
+  "text": ".lineWidth = ",
+ },
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/ProgressIndicator.m",
+  "offset": 4748,
+  "remove": 1,
+ },
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/ProgressIndicator.m",
+  "offset": 4755,
+  "remove": 1,
+ },
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/ProgressIndicator.m",
+  "offset": 4760,
+  "remove": 17,
+  "text": ".lineCapStyle = ",
+ },
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/ProgressIndicator.m",
+  "offset": 4792,
+  "remove": 1,
+ },
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/ProgressIndicator.h",
+  "offset": 296,
+  "remove": 5,
+  "text": "NS_ENUM(unsigned int, Colors) ",
+ },
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/ProgressIndicator.h",
+  "offset": 320,
+  "remove": 7,
+ },
+]

@@ -1,0 +1,19 @@
+[
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/TalkTimer/SPLBannerViewController.m",
+  "offset": 648,
+  "remove": 2,
+  "text": "instancetype",
+ },
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/TalkTimer/SPLBannerViewController.h",
+  "offset": 453,
+  "remove": 2,
+  "text": "instancetype",
+ },
+ {
+  "file": "/Developer/iPhoneApps/TimerToGo/TimerToGo/TimerToGo/TalkTimer/SPLBannerViewController.h",
+  "offset": 557,
+  "text": " NS_DESIGNATED_INITIALIZER",
+ },
+]
